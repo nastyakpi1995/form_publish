@@ -68,6 +68,10 @@
 .form_lablel_color {
     color: #7E8283;
 }
+.low_container {
+    padding-top: 6px;
+}
+
 .drop_menu_container {
     width: 227px;
     height: 44px;
