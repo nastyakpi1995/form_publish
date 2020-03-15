@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5f8af4d-8544-4f1e-98ec-db041d87d516" name="Default Changelist" comment="form: add text_form">
+    <list default="true" id="e5f8af4d-8544-4f1e-98ec-db041d87d516" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
@@ -20,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="121" column="88" selection-start-line="121" selection-start-column="70" selection-end-line="121" selection-end-column="88" />
+            <state relative-caret-position="195">
+              <caret line="125" column="39" selection-start-line="125" selection-start-column="39" selection-end-line="125" selection-end-column="39" />
               <folding>
                 <element signature="n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -30,6 +30,7 @@
                 <element signature="n#div#4;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#5;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#6;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#8;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -38,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="243">
+              <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -56,6 +57,7 @@
       <find>form_inform_text</find>
       <find>group_margin_text</find>
       <find>comment_area</find>
+      <find>flex-column</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -129,7 +131,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584258958736</updated>
       <workItem from="1584258963353" duration="3037000" />
-      <workItem from="1584264059348" duration="5296000" />
+      <workItem from="1584264059348" duration="6504000" />
     </task>
     <task id="LOCAL-00001" summary="form: default">
       <created>1584259163554</created>
@@ -187,11 +189,18 @@
       <option name="project" value="LOCAL" />
       <updated>1584275622429</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="form: add text_form">
+      <created>1584280079535</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1584280079535</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8333000" />
+    <option name="totallyTimeSpent" value="9541000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="7" />
@@ -227,15 +236,15 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="form: default" />
     <MESSAGE value="form: add some style to form" />
-    <MESSAGE value="form: add text_form" />
     <MESSAGE value="form: add text_form, style" />
-    <option name="LAST_COMMIT_MESSAGE" value="form: add text_form, style" />
+    <MESSAGE value="form: add text_form" />
+    <option name="LAST_COMMIT_MESSAGE" value="form: add text_form" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="121" column="88" selection-start-line="121" selection-start-column="70" selection-end-line="121" selection-end-column="88" />
+        <state relative-caret-position="195">
+          <caret line="125" column="39" selection-start-line="125" selection-start-column="39" selection-end-line="125" selection-end-column="39" />
           <folding>
             <element signature="n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -244,14 +253,15 @@
             <element signature="n#div#4;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#5;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#6;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#8;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="243">
+          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
         </state>
       </provider>
     </entry>

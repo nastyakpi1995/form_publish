@@ -14,6 +14,9 @@
 .textarea_container {
     height: 72px;
 }
+.container_text_margin {
+    margin-bottom: 1.2rem;
+}
 .group_button_container {
     margin-left: 0.3rem;
     margin-bottom: 0.7em;
@@ -37,7 +40,7 @@
 }
 .confirm_lable {
     font-size: 16px;
-    line-height: 30px;
+    line-height: 27px;
 }
 .form_inform_text {
     font-size: 20px;
