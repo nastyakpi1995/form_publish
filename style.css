@@ -1,0 +1,129 @@
+.main_container {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+}
+/*// header*/
+.margin_box {
+    margin-left: 140px;
+}
+.margin_text {
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 5px;
+}
+
+/*container menu*/
+.main_menu_container {
+    font-size: 14px;
+    line-height: 19px;
+}
+.picture_main {
+    /*position: absolute;*/
+    /*position: 3px;*/
+}
+
+.relative_main {
+    position: relative;
+}
+
+/*form*/
+.share_check_custom::before {
+    width: 24px;
+    height: 24px;
+    border: #907CFF 2px solid;
+}
+.share_check_custom::after {
+    width: 24px;
+    height: 24px;
+    border: #907CFF 2px solid;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::after {
+    background-color: #907CFF;
+    background-image:  url('./img/correct.svg')
+}
+.confirm_lable {
+    font-size: 16px;
+    line-height: 30px;
+}
+.form_inform_text {
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.form_lable {
+    color: #7E8283;
+}
+.drop_menu_container {
+    width: 227px;
+    height: 44px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #D9D9D6;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.drop_picture {
+    background: url('./img/dropdown_icon.svg') no-repeat;
+    height: 13px;
+    width: 14px;
+}
+.box_dropdown {
+    width: 224px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+.input[type="month" i] {
+    cursor: none;
+    word-spacing: 899px;
+}
+.logo_container {
+    max-width: 500px;
+}
+.drop_menu_small {
+    width: 92px;
+    height: 44px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #D9D9D6;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.container_text {
+    max-width: fit-content;
+}
+/*button*/
+.button_save {
+    background: #907CFF;
+    width: 305px;
+    height: 44px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+}
+.drop_menu_small {
+    width: 92px;
+    height: 44px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #D9D9D6;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.container_text {
+    max-width: fit-content;
+}
+/*button*/
+.button_save {
+    background: #907CFF;
+    width: 305px;
+    height: 44px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+}
