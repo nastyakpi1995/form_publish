@@ -8,6 +8,12 @@
 .group_margin_text {
     margin-bottom: 0.9rem;
 }
+.text_container {
+    height: 90px;
+}
+.textarea_container {
+    height: 72px;
+}
 .group_button_container {
     margin-left: 0.3rem;
     margin-bottom: 0.7em;
