@@ -111,12 +111,12 @@
     padding: 2px 5px;
 }
 .container_padding_btn {
-     margin-left: 4px;
-     padding-top: 3px;
+    margin: 0 10px 0px 0px;
+    padding: 0 12px;
  }
 .container_padding_left {
-    margin-left: 12px;
-    padding-top: 3px;
+    margin-left: 13px;
+    padding-top: 2px;
 }
 /*button*/
 .button_save {
