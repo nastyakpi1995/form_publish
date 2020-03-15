@@ -5,6 +5,9 @@
 }
 
 /*form*/
+.container_to_group {
+
+}
 .group_margin_text {
     margin-bottom: 0.9rem;
 }
@@ -42,6 +45,9 @@
     font-size: 16px;
     line-height: 25px;
 }
+/*.main_container_drop {*/
+/*    height: 290px;*/
+/*}*/
 .form_container_checkbox {
     margin-left: 5px;
     margin-bottom: 27px;
@@ -55,8 +61,10 @@
 }
 
 .form_lable {
-    color: #7E8283;
     margin-left: 20px
+}
+.form_lablel_color {
+    color: #7E8283;
 }
 .drop_menu_container {
     width: 227px;
