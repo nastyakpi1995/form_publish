@@ -103,7 +103,10 @@
     border-radius: 3px;
 }
 .container_text {
-    max-width: fit-content;
+    padding: 0;
+}
+.container_padding_btn {
+    margin-left: 15px;
 }
 /*button*/
 .button_save {
