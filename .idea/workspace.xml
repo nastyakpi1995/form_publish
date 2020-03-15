@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5f8af4d-8544-4f1e-98ec-db041d87d516" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,16 +19,29 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1629">
-              <caret line="1011" lean-forward="true" selection-start-line="1011" selection-end-line="1011" />
+            <state relative-caret-position="106">
+              <caret line="121" column="97" selection-start-line="121" selection-start-column="97" selection-end-line="121" selection-end-column="97" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Story</find>
+      <find>/textarea&gt;</find>
+      <find>textarea&gt;</find>
+      <find>textarea</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -90,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584258958736</updated>
-      <workItem from="1584258963353" duration="252000" />
+      <workItem from="1584258963353" duration="1725000" />
     </task>
     <task id="LOCAL-00001" summary="form: default">
       <created>1584259163554</created>
@@ -99,20 +113,48 @@
       <option name="project" value="LOCAL" />
       <updated>1584259163554</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="form: add some style to form">
+      <created>1584259272203</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584259272203</updated>
+    </task>
+    <task id="LOCAL-00003" summary="form: add some style to form">
+      <created>1584259316282</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584259316282</updated>
+    </task>
+    <task id="LOCAL-00004" summary="form: add some style to form">
+      <created>1584259350751</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584259350751</updated>
+    </task>
+    <task id="LOCAL-00005" summary="form: add text_form">
+      <created>1584260183872</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584260183872</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="252000" />
+    <option name="totallyTimeSpent" value="1725000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
+    <frame x="-6" y="-6" width="1549" height="837" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Repositories" order="0" weight="0.32982087" />
       <window_info id="Structure" order="1" sideWeight="0.5088" side_tool="true" weight="0.18018967" />
       <window_info id="Favorites" order="2" sideWeight="0.112" side_tool="true" weight="0.18018967" />
-      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.888" visible="true" weight="0.18692206" />
+      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.888" visible="true" weight="0.18692206" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49841937" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.49837488" />
@@ -122,9 +164,9 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49947312" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.48998946" weight="0.17768148" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49420443" visible="true" weight="0.50353605" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49420443" weight="0.50353605" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51001054" side_tool="true" weight="0.32286024" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49947312" weight="0.43661973" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" sideWeight="0.49947312" visible="true" weight="0.43564355" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -135,14 +177,18 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="form: default" />
-    <option name="LAST_COMMIT_MESSAGE" value="form: default" />
+    <MESSAGE value="form: add some style to form" />
+    <MESSAGE value="form: add text_form" />
+    <option name="LAST_COMMIT_MESSAGE" value="form: add text_form" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1629">
-          <caret line="1011" lean-forward="true" selection-start-line="1011" selection-end-line="1011" />
+        <state relative-caret-position="106">
+          <caret line="121" column="97" selection-start-line="121" selection-start-column="97" selection-end-line="121" selection-end-column="97" />
         </state>
       </provider>
     </entry>
