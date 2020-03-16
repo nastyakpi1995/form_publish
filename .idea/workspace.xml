@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5f8af4d-8544-4f1e-98ec-db041d87d516" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="e5f8af4d-8544-4f1e-98ec-db041d87d516" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -19,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="178" column="51" selection-start-line="178" selection-start-column="51" selection-end-line="178" selection-end-column="51" />
+            <state relative-caret-position="191">
+              <caret line="822" column="57" lean-forward="true" selection-start-line="822" selection-start-column="57" selection-end-line="822" selection-end-column="57" />
               <folding>
                 <element signature="n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -59,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="70" column="17" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
+            <state relative-caret-position="277">
+              <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -112,16 +109,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1605" />
-    <option name="y" value="605" />
-    <option name="width" value="2065" />
-    <option name="height" value="1545" />
+    <option name="x" value="3832" />
+    <option name="y" value="759" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -173,7 +170,7 @@
       <updated>1584258958736</updated>
       <workItem from="1584258963353" duration="3037000" />
       <workItem from="1584264059348" duration="11866000" />
-      <workItem from="1584290320940" duration="6712000" />
+      <workItem from="1584290320940" duration="7406000" />
     </task>
     <task id="LOCAL-00001" summary="form: default">
       <created>1584259163554</created>
@@ -301,15 +298,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584296814935</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="form: add text_form">
+      <created>1584297136601</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1584297136601</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21615000" />
+    <option name="totallyTimeSpent" value="22309000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1549" height="837" extended-state="7" />
-    <editor active="true" />
+    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
     <layout>
       <window_info id="Repositories" order="0" weight="0.32982087" />
       <window_info id="Structure" order="1" sideWeight="0.5088" side_tool="true" weight="0.18018967" />
@@ -348,15 +351,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="70" column="17" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
+        <state relative-caret-position="277">
+          <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="178" column="51" selection-start-line="178" selection-start-column="51" selection-end-line="178" selection-end-column="51" />
+        <state relative-caret-position="191">
+          <caret line="822" column="57" lean-forward="true" selection-start-line="822" selection-start-column="57" selection-end-line="822" selection-end-column="57" />
           <folding>
             <element signature="n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
