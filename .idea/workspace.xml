@@ -4,7 +4,6 @@
     <list default="true" id="e5f8af4d-8544-4f1e-98ec-db041d87d516" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="623">
-              <caret line="839" column="81" selection-start-line="839" selection-start-column="81" selection-end-line="839" selection-end-column="81" />
+            <state relative-caret-position="604">
+              <caret line="1095" column="27" selection-start-line="1095" selection-start-column="27" selection-end-line="1095" selection-end-column="27" />
               <folding>
                 <element signature="n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -29,13 +28,21 @@
                 <element signature="n#div#0;n#div#7;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#11;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#13;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#13;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#13;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#div#13;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#3;n#div#0;n#div#0;n#div#13;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#4;n#div#0;n#div#0;n#div#13;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#h2#0;n#div#14;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#15;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#16;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#17;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#17;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#17;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#17;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#div#17;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#17;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#div#17;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#19;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
@@ -45,8 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="67" column="20" lean-forward="true" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
+            <state relative-caret-position="349">
+              <caret line="65" column="13" lean-forward="true" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -55,10 +62,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>flex-column</find>
-      <find>confir</find>
-      <find>row text-end mt-3</find>
-      <find>m-t-3 form_lable</find>
       <find>form</find>
       <find>form_con</find>
       <find>.main_container_drop</find>
@@ -85,6 +88,10 @@
       <find>form_lable&quot;</find>
       <find>form_lable</find>
       <find>reps</find>
+      <find>War</find>
+      <find>.form_lablel_color</find>
+      <find>.form_lablel_unic</find>
+      <find>.form_lablel_unic</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -162,7 +169,7 @@
       <workItem from="1584290320940" duration="7406000" />
       <workItem from="1584345036520" duration="1876000" />
       <workItem from="1584346934234" duration="25000" />
-      <workItem from="1584348499505" duration="1665000" />
+      <workItem from="1584348499505" duration="2163000" />
     </task>
     <task id="LOCAL-00001" summary="form: default">
       <created>1584259163554</created>
@@ -318,11 +325,18 @@
       <option name="project" value="LOCAL" />
       <updated>1584346438500</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="form: add text_form">
+      <created>1584350369252</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1584350369252</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25875000" />
+    <option name="totallyTimeSpent" value="26373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3832" y="759" width="1936" height="1056" extended-state="6" />
@@ -365,15 +379,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="67" column="20" lean-forward="true" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
+        <state relative-caret-position="349">
+          <caret line="65" column="13" lean-forward="true" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="839" column="81" selection-start-line="839" selection-start-column="81" selection-end-line="839" selection-end-column="81" />
+        <state relative-caret-position="604">
+          <caret line="1095" column="27" selection-start-line="1095" selection-start-column="27" selection-end-line="1095" selection-end-column="27" />
           <folding>
             <element signature="n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -381,13 +395,21 @@
             <element signature="n#div#0;n#div#7;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#11;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#13;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#13;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#13;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#0;n#div#13;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#div#0;n#div#0;n#div#13;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#div#0;n#div#0;n#div#13;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#h2#0;n#div#14;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#15;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#16;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#17;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#17;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#17;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#17;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#17;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#17;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#div#17;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#19;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
