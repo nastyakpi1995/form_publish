@@ -75,8 +75,9 @@
     margin-right: 64px;
 }
 .form_lablel_metric {
-
+    margin-left: 38px;
 }
+
 
 .drop_menu_container {
     width: 227px;
@@ -125,7 +126,8 @@
     padding: 2px 12px;
  }
 .container_padding_left {
-    margin-left: 13px;
+    margin-bottom: 14px;
+    margin-left: 2px;
     padding-top: 2px;
 }
 /*button*/

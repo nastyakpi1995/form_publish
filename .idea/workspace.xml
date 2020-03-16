@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5f8af4d-8544-4f1e-98ec-db041d87d516" name="Default Changelist" comment="" />
+    <list default="true" id="e5f8af4d-8544-4f1e-98ec-db041d87d516" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="822" column="57" lean-forward="true" selection-start-line="822" selection-start-column="57" selection-end-line="822" selection-end-column="57" />
+            <state relative-caret-position="434">
+              <caret line="532" column="30" lean-forward="true" selection-start-line="532" selection-start-column="30" selection-end-line="532" selection-end-column="30" />
               <folding>
                 <element signature="n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -33,7 +37,6 @@
                 <element signature="n#div#9;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#10;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#11;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#13;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#div#13;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#13;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#div#13;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -46,8 +49,6 @@
                 <element signature="n#div#1;n#div#0;n#div#0;n#div#19;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#div#19;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#3;n#div#0;n#div#0;n#div#19;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#20;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#21;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -56,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+            <state relative-caret-position="298">
+              <caret line="128" column="24" selection-start-line="128" selection-start-column="24" selection-end-line="128" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -66,10 +67,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>/textarea&gt;</find>
-      <find>textarea&gt;</find>
-      <find>textarea</find>
-      <find>form_</find>
       <find>form_inform_text</find>
       <find>group_margin_text</find>
       <find>comment_area</find>
@@ -83,7 +80,6 @@
       <find>.main_container_drop</find>
       <find>.main_container</find>
       <find>lable&quot;&gt;&lt;/label</find>
-      <find>form_lable</find>
       <find>WOD E</find>
       <find>m-t-4 form_lablel_color container_text</find>
       <find>container_padding</find>
@@ -96,6 +92,11 @@
       <find>font-size: 16px;</find>
       <find>&lt;div class=&quot;drop_picture mt-2&quot;&gt;&lt;/div</find>
       <find>color</find>
+      <find>WOD</find>
+      <find>margin-bottom: 25px;</find>
+      <find>form_lable</find>
+      <find>form_lablel</find>
+      <find>.container_padding_left</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -126,7 +127,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,6 +138,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -171,6 +172,7 @@
       <workItem from="1584258963353" duration="3037000" />
       <workItem from="1584264059348" duration="11866000" />
       <workItem from="1584290320940" duration="7406000" />
+      <workItem from="1584345036520" duration="1338000" />
     </task>
     <task id="LOCAL-00001" summary="form: default">
       <created>1584259163554</created>
@@ -305,19 +307,34 @@
       <option name="project" value="LOCAL" />
       <updated>1584297136601</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="form: add text_form">
+      <created>1584345051389</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1584345051389</updated>
+    </task>
+    <task id="LOCAL-00021" summary="form: add text_form">
+      <created>1584345861081</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1584345861081</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22309000" />
+    <option name="totallyTimeSpent" value="23647000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
+    <frame x="3832" y="759" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Repositories" order="0" weight="0.32982087" />
       <window_info id="Structure" order="1" sideWeight="0.5088" side_tool="true" weight="0.18018967" />
       <window_info id="Favorites" order="2" sideWeight="0.112" side_tool="true" weight="0.18018967" />
-      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.888" visible="true" weight="0.18692206" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.888" visible="true" weight="0.18651211" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49841937" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.49837488" />
@@ -351,15 +368,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+        <state relative-caret-position="298">
+          <caret line="128" column="24" selection-start-line="128" selection-start-column="24" selection-end-line="128" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="822" column="57" lean-forward="true" selection-start-line="822" selection-start-column="57" selection-end-line="822" selection-end-column="57" />
+        <state relative-caret-position="434">
+          <caret line="532" column="30" lean-forward="true" selection-start-line="532" selection-start-column="30" selection-end-line="532" selection-end-column="30" />
           <folding>
             <element signature="n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -375,7 +392,6 @@
             <element signature="n#div#9;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#10;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#11;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#13;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#0;n#div#13;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#13;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#0;n#div#13;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -388,8 +404,6 @@
             <element signature="n#div#1;n#div#0;n#div#0;n#div#19;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#0;n#div#19;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#div#0;n#div#0;n#div#19;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#20;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#21;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
