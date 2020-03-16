@@ -53,7 +53,7 @@
     margin-bottom: 27px;
 }
 .container_form {
-    margin-bottom: 25px;
+    margin-bottom: 23px;
 }
 .form_inform_text {
     font-size: 20px;
@@ -70,6 +70,12 @@
 }
 .low_container {
     padding-top: 6px;
+}
+.box_wod-experies {
+    margin-right: 64px;
+}
+.form_lablel_metric {
+
 }
 
 .drop_menu_container {
