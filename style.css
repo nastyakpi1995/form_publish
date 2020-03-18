@@ -209,3 +209,6 @@
     font-size: 14px;
     line-height: 21px;
 }
+.marg_button {
+    margin: 0;
+}
