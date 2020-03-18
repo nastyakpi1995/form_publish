@@ -5,8 +5,11 @@
 }
 
 /*form*/
+.container_btn_button {
+    padding: 2px 0 0 11px;
+}
 .container_to_group {
-
+    max-width: 942px;
 }
 .group_margin_text {
     margin-bottom: 0.9rem;
@@ -82,7 +85,7 @@
     margin-right: 64px;
 }
 .form_lablel_metric {
-    margin-left: 29px;
+    margin-left: 77px;
 }
 
 
@@ -124,19 +127,20 @@
     box-sizing: border-box;
     border-radius: 3px;
 }
-.container_text {
-    padding: 0;
+.container_text_m {
+    padding-left: 0;
+    width: 64px;
 }
 .class_container {
     padding: 2px 5px;
 }
-.container_padding_btn {
-    margin: 0 10px 0px 0px;
-    padding: 2px 12px;
- }
+/*.container_padding_btn {*/
+/*    margin: 0 10px 0px 0px;*/
+/*    padding: 2px 12px;*/
+/* }*/
 .container_padding_left {
     margin-bottom: 14px;
-    margin-left: 2px;
+    margin-left: 19px;
     padding-top: 2px;
 }
 /*button*/
