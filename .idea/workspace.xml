@@ -18,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="576" column="26" lean-forward="true" selection-start-line="576" selection-start-column="26" selection-end-line="576" selection-end-column="26" />
+            <state relative-caret-position="380">
+              <caret line="521" column="34" lean-forward="true" selection-start-line="521" selection-start-column="34" selection-end-line="521" selection-end-column="34" />
               <folding>
                 <element signature="n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -32,10 +32,7 @@
                 <element signature="n#div#8;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#9;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#10;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#13;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#13;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#13;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#13;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#13;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#div#13;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#div#13;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -80,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="148" column="22" selection-start-line="148" selection-start-column="22" selection-end-line="148" selection-end-column="22" />
+            <state relative-caret-position="209">
+              <caret line="64" column="19" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -90,8 +87,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>reps</find>
-      <find>War</find>
       <find>.form_lablel_color</find>
       <find>.form_lablel_unic</find>
       <find>dropdown-menu box_dropdown mt-2 border border-white</find>
@@ -120,6 +115,8 @@
       <find>font_</find>
       <find>WARm</find>
       <find>container_pa</find>
+      <find>Wod e</find>
+      <find>font_si</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -188,7 +185,7 @@
       <workItem from="1584362172374" duration="724000" />
       <workItem from="1584364064183" duration="643000" />
       <workItem from="1584508979794" duration="4689000" />
-      <workItem from="1584513871114" duration="4567000" />
+      <workItem from="1584513871114" duration="5664000" />
     </task>
     <task id="LOCAL-00001" summary="form: default">
       <created>1584259163554</created>
@@ -421,15 +418,28 @@
       <option name="project" value="LOCAL" />
       <updated>1584518199609</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="form: add text_form">
+      <created>1584518612616</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1584518612616</updated>
+    </task>
+    <task id="LOCAL-00035" summary="form: add text_form">
+      <created>1584518934231</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1584518934231</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37042000" />
+    <option name="totallyTimeSpent" value="38139000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info id="Repositories" order="0" weight="0.32982087" />
       <window_info id="Structure" order="1" sideWeight="0.5088" side_tool="true" weight="0.18018967" />
@@ -443,7 +453,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49947312" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.48998946" weight="0.17768148" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.48998946" visible="true" weight="0.1768034" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49420443" weight="0.50353605" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51001054" side_tool="true" weight="0.32286024" />
       <window_info active="true" anchor="bottom" id="Messages" order="11" sideWeight="0.49947312" visible="true" weight="0.43564355" />
@@ -455,6 +465,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -468,15 +504,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="148" column="22" selection-start-line="148" selection-start-column="22" selection-end-line="148" selection-end-column="22" />
+        <state relative-caret-position="209">
+          <caret line="64" column="19" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="576" column="26" lean-forward="true" selection-start-line="576" selection-start-column="26" selection-end-line="576" selection-end-column="26" />
+        <state relative-caret-position="380">
+          <caret line="521" column="34" lean-forward="true" selection-start-line="521" selection-start-column="34" selection-end-line="521" selection-end-column="34" />
           <folding>
             <element signature="n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -489,10 +525,7 @@
             <element signature="n#div#8;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#9;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#10;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#13;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#13;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#13;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#13;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#13;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#0;n#div#13;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#0;n#div#13;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
