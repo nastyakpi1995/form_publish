@@ -79,7 +79,7 @@
     width: 176px;
 }
 .quantly {
-    margin: 5px;
+    margin-top: 3px;
     padding-left: 9px;
 }
          .form_lable {
@@ -177,16 +177,7 @@
 }
 
 /*button*/
-.button_save {
-    background: #907CFF;
-    width: 305px;
-    height: 44px;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 21px;
-}
+
 .drop_menu_small {
     width: 92px;
     height: 44px;
@@ -212,7 +203,7 @@
     max-width: fit-content;
 }
 /*button*/
-.button_save {
+.button_save_button {
     background: #907CFF;
     width: 305px;
     height: 44px;
