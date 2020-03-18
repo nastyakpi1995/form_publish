@@ -66,6 +66,9 @@
     line-height: 15px;
     font-size: 15px;
 }
+.add_exercise_position {
+    margin-top: 8px;
+}
 .form_lablel_unic {
     margin-left: 8px;
     width: 176px;
