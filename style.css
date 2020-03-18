@@ -69,12 +69,23 @@
 .add_exercise_position {
     margin-top: 8px;
 }
+.btn_text_flex {
+    display: flex;
+    text-align: start;
+}
 .form_lablel_unic {
     margin-left: 8px;
     width: 176px;
 }
-.form_lable {
-    padding-left: 30px;
+.quantly {
+    margin: 5px;
+    padding-left: 9px;
+}
+         .form_lable {
+    padding-left: 21px;
+}
+.margt_1 {
+    margin-top: 2px;
 }
 .box_margin {
     margin-left: 22px;
@@ -92,7 +103,7 @@
     margin-right: 64px;
 }
 .form_lablel_metric {
-    margin-left: 77px;
+    margin-left: 85px;
 }
 
 
