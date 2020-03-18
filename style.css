@@ -137,10 +137,10 @@
 }
 .width_unic {
     width: 224px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: inherit;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*flex-direction: column;*/
+    /*text-align: inherit;*/
 }
 .input[type="month" i] {
     cursor: none;
