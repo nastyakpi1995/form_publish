@@ -59,8 +59,12 @@
     margin-bottom: 23px;
 }
 .form_inform_text {
-    font-size: 20px;
+    font-size: 19px;
     line-height: 23px;
+}
+.font_size_exercise {
+    line-height: 15px;
+    font-size: 15px;
 }
 .form_lablel_unic {
     margin-left: 8px;
@@ -140,8 +144,8 @@
 /* }*/
 .container_padding_left {
     margin-bottom: 14px;
-    margin-left: 19px;
-    padding-top: 2px;
+    margin-left: 26px;
+    padding-top: 3px;
 }
 /*button*/
 .button_save {
