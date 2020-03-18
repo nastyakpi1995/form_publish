@@ -148,6 +148,10 @@
 .container_padding_left {
     margin-left: 26px;
 }
+.padding_left_box {
+    padding-left: 10px;
+}
+
 /*button*/
 .button_save {
     background: #907CFF;
