@@ -25,7 +25,7 @@
 }
 .group_button_container {
     margin-left: 0.3rem;
-    margin-bottom: 19px;
+    margin-bottom: 16px;
 }
 .btn_container {
     margin-bottom: 1.5em;
@@ -50,6 +50,7 @@
 }
 .main_container_drop {
    max-width: 1040px;
+    margin-bottom: 30px;
 }
 .form_container_checkbox {
     margin-left: 5px;
@@ -214,5 +215,9 @@
 }
 .button_save {
     margin-bottom: 30px;
+}
+.check_box {
+    font-size: 16px;
+    line-height: 22px;
 }
 
