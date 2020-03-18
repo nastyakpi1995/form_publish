@@ -63,7 +63,7 @@
     line-height: 23px;
 }
 .font_size_exercise {
-    line-height: 15px;
+    line-height: 9px;
     font-size: 15px;
 }
 .add_exercise_position {
@@ -146,9 +146,7 @@
 /*    padding: 2px 12px;*/
 /* }*/
 .container_padding_left {
-    margin-bottom: 14px;
     margin-left: 26px;
-    padding-top: 3px;
 }
 /*button*/
 .button_save {
