@@ -59,8 +59,17 @@
 .container_form {
     margin-bottom: 23px;
 }
+.marg_0 {
+    margin-bottom: 0;
+}
+
 .form_inform_text {
     font-size: 19px;
+    line-height: 23px;
+}
+.form_inform_text_habbit {
+    font-weight: bold;
+    font-size: 20px;
     line-height: 23px;
 }
 .font_size_exercise {
@@ -117,8 +126,10 @@
     box-sizing: border-box;
     border-radius: 3px;
 }
-.show {
-    background: black;
+.border_dropdown {
+    border: 1px solid #907CFF;
+    box-sizing: border-box;
+    border-radius: 3px;
 }
 .menu_header_drop {
     font-size: 14px;
