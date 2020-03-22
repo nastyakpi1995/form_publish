@@ -1,0 +1,68 @@
+<header>
+    <div class="header">
+        <div class="header-logo">
+            <img src="assets/img/HorizontalLogoWhite.svg" alt="">
+        </div>
+        <div class="header-left">
+            <div class="header-center">
+                <div class="header-center-title">
+                    <button class="header-center-back hide">
+                        <img src="assets/img/header/back.svg" alt="">
+                    </button>
+                    <h3 id="header-text"> My gyms and groups </h3>
+                </div>
+
+                <div class="header-center-search">
+                    <button class="header-center-search-btn">
+                        <img src="assets/img/header/search.svg" alt="">
+                    </button>
+                    <div class="header-center-search-form hide">
+                        <form class="search-form ">
+                            <input type="text" placeholder="Search" name="search"/>
+                            <button class="header-center-search-exit">
+                                <img src="assets/img/header/exit.svg" alt="">
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="header-user">
+                <div class="header-user-notifications">
+                    <img src="assets/img/header/notifications.svg" alt="">
+                </div>
+                <div class="header-user-profile">
+                    <img class="user-logo" src="assets/img/header/user-logo.png" alt="">
+                    <ul class="user-dropdown hide">
+                        <li class="user-dropdown-name">John Malkovich</li>
+                        <li class="user-dropdown-level">Level 1</li>
+                        <li class="user-dropdown-profile">My Profile</li>
+                        <li class="user-dropdown-logOut">Log Out</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<script>
+    $(function () {
+        //header
+        $('.header-center-search-btn').click(function () {
+            $('.header-center-search-form').removeClass('hide');
+            $('.search-form').addClass('show');
+        });
+
+        $('.header-center-search-exit').click(function (event) {
+            event.preventDefault();
+            $('.search-form').addClass('hide-search');
+            setTimeout(function () {
+                $('.header-center-search-form').addClass('hide');
+                $('.search-form').removeClass('show').removeClass('hide-search');
+            }, 1200)
+        });
+
+        $('.user-logo').click(function () {
+            $('.user-dropdown').toggleClass('hide');
+        });
+    })
+</script>

@@ -1,0 +1,64 @@
+@import "colors";
+
+.menu-block {
+  width: 252px;
+
+  .menu {
+    &-list {
+      padding-left: 0;
+      padding-top: 8px;
+
+      .menu-item {
+        color: $menu-color;
+        padding: 10px 24px;
+        width: 100%;
+
+        &:hover {
+          background-color: $input-bg;
+        }
+
+        svg {
+          margin-right: 12px;
+        }
+      }
+
+      span.menu-item {
+        display: inline-block;
+      }
+
+      .submenu {
+        display: none;
+        padding-left: 0;
+
+        li {
+          padding-left: 76px;
+        }
+      }
+
+      .open-submenu {
+        width: 100%;
+        display: inline-block;
+      }
+
+      .active {
+        color: $header-bg;
+
+        .icon {
+          stroke: $header-bg;
+          stroke-width: 2;
+          stroke-linecap: butt;
+          stroke-dasharray: 0;
+        }
+
+        .icon-fill {
+          fill: $header-bg;
+        }
+
+        .submenu {
+          display: block;
+        }
+      }
+    }
+  }
+
+}

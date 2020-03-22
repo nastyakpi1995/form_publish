@@ -1,0 +1,101 @@
+@import "colors";
+
+.form_text {
+  margin-bottom: 12px !important;
+}
+
+.custom-control {
+  &-label {
+    padding: 4px 0 0 6px;
+  }
+  &-label::after {
+    width: 24px;
+    height: 24px;
+    border: 1px solid;
+  }
+  &-label::before {
+    position: absolute;
+    background-color: $main-bg;
+    width: 24px;
+    height: 24px;
+    border: 1px solid $blue;
+    border-radius: 16px;
+  }
+  &-input:checked ~ .custom-control-label::before {
+    border: 1px solid $blue;
+    background-color: $blue;
+  }
+}
+.label {
+  &_form-control {
+    background: url("../assets/img/programm/calendar.svg") no-repeat;
+    background-position-y: center;
+    background-position-x: calc(100% - 10px);
+  }
+}
+
+.select-box-header {
+  color: $menu-color;
+}
+
+.them_style {
+  height: 44px;
+  border: 1px solid $menu-color;
+}
+.story_label {
+  &-thuth {
+    border: 1px solid;
+    width: 387px;
+    height: 72px;
+  }
+  .label-name {
+    margin-top: 12px;
+  }
+  &-story {
+    border: 1px solid;
+    width: 387px !important;
+    height: 92px !important;
+  }
+}
+.custom-checkbox {
+  .custom-control-label {
+    padding-left: 8px;
+  }
+}
+.helthy_live {
+  width: 223px;
+}
+.warm_up {
+  height: 262px !important;
+}
+.wod_exercises {
+  width: 500px;
+  height: 351px;
+  display: grid;
+  grid-template-rows: 34px 60px 60px 60px 59px 31px;
+  &-block_span {
+    color: $blue;
+  }
+  &-block {
+    display: grid;
+    height: 44px;
+    grid-template-columns: 21px 246px 111px 1fr;
+  }
+  &_name {
+    height: 44px;
+    width: 94px;
+  }
+}
+.button_save {
+  background: $blue;
+  width: 305px;
+  height: 44px;
+}
+
+.height_value {
+  height: 44px;
+}
+.metric-box {
+  width: 92px;
+
+}

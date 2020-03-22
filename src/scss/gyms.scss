@@ -1,0 +1,177 @@
+@import "colors";
+
+.content-block {
+  width: 100%;
+
+  .content-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 24px;
+
+    &-left {
+      display: flex;
+
+      .print-btn {
+
+        &:hover {
+          border: none;
+
+          .printer {
+            fill: #515759;
+          }
+        }
+
+        &:active .printer {
+          fill: #515759;
+        }
+
+        &:active .printer-bg {
+          fill: #D9D9D6;
+        }
+      }
+
+      .filter-btn {
+
+        &:hover {
+          border: none;
+        }
+
+        &:hover .filter {
+          fill: #515759;
+        }
+
+        &[aria-expanded="true"] {
+          .filter {
+            fill: #515759;
+          }
+
+          .filter-bg {
+            fill: #D9D9D6;
+          }
+        }
+      }
+
+      .dropdown-menu {
+        background: #FFFFFF;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+        padding: 12px 0;
+
+        .dropdown-header {
+          color: $menu-color;
+          letter-spacing: 0.05em;
+          text-transform: uppercase;
+          font-size: 10px;
+          line-height: 12px;
+          padding: 12px 24px;
+        }
+
+        .dropdown-item {
+          font-size: 14px;
+          line-height: 19px;
+          color: $header-bg;
+          width: 100%;
+          padding: 8px 24px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          &:hover {
+            background-color: $input-bg;
+          }
+
+          &:active {
+            background-color: $input-bg;
+            color: $menu-color;
+          }
+        }
+
+        .dropdown-item__active span {
+          display: inline-block;
+          width: 8px;
+          height: 8px;
+          background-color: $blue;
+          border-radius: 50%;
+        }
+      }
+    }
+
+  }
+
+
+  .content {
+    padding: 0;
+    margin: 0;
+    max-width: initial;
+
+    .row {
+      margin-right: 14px;
+      margin-left: 14px;
+
+      > div {
+        padding: 10px;
+      }
+    }
+
+    .gym-card {
+      padding: 12px;
+      border-radius: 8px;
+      height: 100%;
+
+      &:hover {
+        background-color: $input-bg;
+      }
+
+      .card-image {
+        position: relative;
+
+        > img {
+          border-radius: 4px;
+          height: 112px;
+          object-fit: cover;
+        }
+
+        .card-image-overlay {
+          position: absolute;
+          left: 12px;
+          bottom: 12px;
+
+          span {
+            color: $header-color;
+            font-size: 12px;
+            padding: 2px 6px;
+            border-radius: 4px;
+            display: inline-block;
+          }
+
+          .home {
+            background-color: $blue;
+          }
+
+          .general {
+            background-color: $red;
+          }
+        }
+      }
+
+      .card-body {
+        padding-bottom: 0;
+        padding-left: 0;
+
+        .title h5 {
+          color: $black;
+          font-family: "Roboto Bold", sans-serif;
+          font-weight: bold;
+          font-size: 20px;
+          letter-spacing: 0.015em;
+        }
+
+        .address p {
+          color: $dark-gray;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
