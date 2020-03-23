@@ -18,25 +18,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/program-general.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="210" column="75" selection-start-line="210" selection-start-column="75" selection-end-line="210" selection-end-column="75" />
+            <state relative-caret-position="163">
+              <caret line="75" column="29" lean-forward="true" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
               <folding>
-                <element signature="n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
+                <element signature="n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
                 <element signature="n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
+                <element signature="n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
                 <element signature="n#label#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scss/program-general.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+            <state relative-caret-position="119">
+              <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
             </state>
           </provider>
         </entry>
@@ -54,7 +55,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>add_exercise_position</find>
       <find>form</find>
       <find>WOD E</find>
       <find>form_lable</find>
@@ -84,6 +84,7 @@
       <find>thuth-remember</find>
       <find>totalfit_flex</find>
       <find>test</find>
+      <find>user-data</find>
     </findStrings>
     <dirStrings>
       <dir>D:\reactProject\design\form_work\src\components</dir>
@@ -107,8 +108,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/img/src/style.css" />
         <option value="$PROJECT_DIR$/src/js/main.js" />
-        <option value="$PROJECT_DIR$/src/components/program-general.html" />
         <option value="$PROJECT_DIR$/src/scss/program-general.scss" />
+        <option value="$PROJECT_DIR$/src/components/program-general.html" />
       </list>
     </option>
   </component>
@@ -203,7 +204,8 @@
       <workItem from="1584598595245" duration="6468000" />
       <workItem from="1584773538786" duration="36000" />
       <workItem from="1584885934297" duration="793000" />
-      <workItem from="1584886784277" duration="5151000" />
+      <workItem from="1584886784277" duration="5410000" />
+      <workItem from="1584945629403" duration="3557000" />
     </task>
     <task id="LOCAL-00001" summary="form: default">
       <created>1584259163554</created>
@@ -541,15 +543,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584886517922</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="form: programm_form was added">
+      <created>1584898814840</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1584898814840</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59885000" />
+    <option name="totallyTimeSpent" value="63701000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1549" height="837" extended-state="7" />
-    <editor active="true" />
+    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
     <layout>
       <window_info id="Repositories" order="0" weight="0.32982087" />
       <window_info id="Structure" order="1" sideWeight="0.5088" side_tool="true" weight="0.18018967" />
@@ -564,9 +572,9 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49947312" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.48998946" visible="true" weight="0.19519095" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49420443" weight="0.39886847" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49420443" weight="0.19660537" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51001054" side_tool="true" weight="0.32286024" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" sideWeight="0.49947312" visible="true" weight="0.43564355" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49947312" weight="0.43564355" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -667,22 +675,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/program-general.html">
+    <entry file="file://$PROJECT_DIR$/src/scss/program-general.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="210" column="75" selection-start-line="210" selection-start-column="75" selection-end-line="210" selection-end-column="75" />
-          <folding>
-            <element signature="n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#label#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/program-general.scss">
+    <entry file="file://$PROJECT_DIR$/src/components/program-general.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        <state relative-caret-position="163">
+          <caret line="75" column="29" lean-forward="true" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
+          <folding>
+            <element signature="n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#label#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
