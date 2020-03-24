@@ -11,7 +11,8 @@
   &-label::after {
     width: 24px;
     height: 24px;
-    border: 1px solid;
+    border: 1px solid $white-color;
+    border-radius: 4px;
   }
   &-label::before {
     position: absolute;
@@ -36,6 +37,11 @@
 
 .select-box-header {
   color: $menu-color;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before ~ .select-box__input:checked {
+  border: 14px solid $blue;
+  background-color: $blue;
 }
 
 .them_style {

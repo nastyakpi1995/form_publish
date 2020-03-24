@@ -1590,7 +1590,7 @@
 <script>
 
     $(function () {
-        $('#user-data').inputmask({"mask": "03/14/2020"});
+        $('#user-data').inputmask({"mask": `99/99/99, ${[' ']} 99:99`});
 
         $('.select-box__current').click(function () {
             $('.select-box__list').toggleClass('active');
