@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e5f8af4d-8544-4f1e-98ec-db041d87d516" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/program-general.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/program-general.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/program-general.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/program-general.scss" afterDir="false" />
     </list>
@@ -17,13 +18,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/program-general.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="73" column="66" selection-start-line="73" selection-start-column="66" selection-end-line="73" selection-end-column="66" />
+            <state relative-caret-position="146">
+              <caret line="14" column="82" lean-forward="true" selection-start-line="14" selection-start-column="82" selection-end-line="14" selection-end-column="82" />
               <folding>
-                <element signature="n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
                 <element signature="n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
                 <element signature="n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
                 <element signature="n#label#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
@@ -32,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scss/program-general.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="307">
-              <caret line="106" column="16" lean-forward="true" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="16" />
+              <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
             </state>
           </provider>
         </entry>
@@ -63,10 +63,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>WAR</find>
-      <find>drop_picture</find>
-      <find>dropdown-header</find>
-      <find>unic</find>
       <find>qu</find>
       <find>button_save</find>
       <find>show</find>
@@ -91,8 +87,12 @@
       <find>input</find>
       <find>#907CFF</find>
       <find>form-control</find>
-      <find>wod_exercises</find>
       <find>warm_up</find>
+      <find>button</find>
+      <find>add</find>
+      <find>+ Add rest</find>
+      <find>wod_exercises</find>
+      <find>Add exercise</find>
     </findStrings>
     <dirStrings>
       <dir>D:\reactProject\design\form_work\src\components</dir>
@@ -118,8 +118,8 @@
         <option value="$PROJECT_DIR$/src/js/main.js" />
         <option value="$PROJECT_DIR$/src/scss/colors.scss" />
         <option value="$PROJECT_DIR$/src/index.html" />
-        <option value="$PROJECT_DIR$/src/components/program-general.html" />
         <option value="$PROJECT_DIR$/src/scss/program-general.scss" />
+        <option value="$PROJECT_DIR$/src/components/program-general.html" />
       </list>
     </option>
   </component>
@@ -219,14 +219,7 @@
       <workItem from="1584954950496" duration="5000" />
       <workItem from="1584970363372" duration="6000" />
       <workItem from="1585037793038" duration="2915000" />
-      <workItem from="1585049828591" duration="539000" />
-    </task>
-    <task id="LOCAL-00003" summary="form: add some style to form">
-      <created>1584259316282</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1584259316282</updated>
+      <workItem from="1585049828591" duration="1101000" />
     </task>
     <task id="LOCAL-00004" summary="form: add some style to form">
       <created>1584259350751</created>
@@ -564,14 +557,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585045670373</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="form: add input color correctly">
+      <created>1585050526864</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1585050526865</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69508000" />
+    <option name="totallyTimeSpent" value="70070000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1549" height="837" extended-state="7" />
+    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Repositories" order="0" weight="0.32982087" />
@@ -649,7 +649,8 @@
     <MESSAGE value="form: programm_form was added" />
     <MESSAGE value="form: date attribute" />
     <MESSAGE value="form: add input color" />
-    <option name="LAST_COMMIT_MESSAGE" value="form: add input color" />
+    <MESSAGE value="form: add input color correctly" />
+    <option name="LAST_COMMIT_MESSAGE" value="form: add input color correctly" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/img/src/style.css.map" />
@@ -685,19 +686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/program-general.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="73" column="66" selection-start-line="73" selection-start-column="66" selection-end-line="73" selection-end-column="66" />
-          <folding>
-            <element signature="n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#label#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -715,7 +703,19 @@
     <entry file="file://$PROJECT_DIR$/src/scss/program-general.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
-          <caret line="106" column="16" lean-forward="true" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="16" />
+          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/program-general.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="14" column="82" lean-forward="true" selection-start-line="14" selection-start-column="82" selection-end-line="14" selection-end-column="82" />
+          <folding>
+            <element signature="n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#label#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>

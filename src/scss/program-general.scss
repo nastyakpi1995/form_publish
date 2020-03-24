@@ -94,6 +94,12 @@
   height: 351px;
   display: grid;
   grid-template-rows: 34px 60px 60px 60px 59px 31px;
+
+  button {
+    padding: 0;
+    color: $blue;
+
+  }
   &-block_span {
     color: $blue;
   }
