@@ -20,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/program-general.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="214" column="32" selection-start-line="214" selection-start-column="32" selection-end-line="214" selection-end-column="32" />
+            <state relative-caret-position="34">
+              <caret line="73" column="66" selection-start-line="73" selection-start-column="66" selection-end-line="73" selection-end-column="66" />
               <folding>
                 <element signature="n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
                 <element signature="n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
@@ -35,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/scss/program-general.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="118" column="25" lean-forward="true" selection-start-line="118" selection-start-column="25" selection-end-line="118" selection-end-column="25" />
+            <state relative-caret-position="307">
+              <caret line="106" column="16" lean-forward="true" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -53,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scss/colors.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="102">
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -63,10 +63,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>check_box</find>
-      <find>group_button_container</find>
-      <find>SKILL</find>
-      <find>main</find>
       <find>WAR</find>
       <find>drop_picture</find>
       <find>dropdown-header</find>
@@ -91,8 +87,12 @@
       <find>D9D9D6</find>
       <find>border</find>
       <find>type</find>
-      <find>input</find>
       <find>9A7CFF</find>
+      <find>input</find>
+      <find>#907CFF</find>
+      <find>form-control</find>
+      <find>wod_exercises</find>
+      <find>warm_up</find>
     </findStrings>
     <dirStrings>
       <dir>D:\reactProject\design\form_work\src\components</dir>
@@ -116,15 +116,15 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/img/src/style.css" />
         <option value="$PROJECT_DIR$/src/js/main.js" />
-        <option value="$PROJECT_DIR$/src/components/program-general.html" />
         <option value="$PROJECT_DIR$/src/scss/colors.scss" />
         <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/components/program-general.html" />
         <option value="$PROJECT_DIR$/src/scss/program-general.scss" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="982" />
+    <option name="x" value="980" />
     <option name="y" value="-45" />
     <option name="width" value="2255" />
     <option name="height" value="1810" />
@@ -219,13 +219,7 @@
       <workItem from="1584954950496" duration="5000" />
       <workItem from="1584970363372" duration="6000" />
       <workItem from="1585037793038" duration="2915000" />
-    </task>
-    <task id="LOCAL-00002" summary="form: add some style to form">
-      <created>1584259272203</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1584259272203</updated>
+      <workItem from="1585049828591" duration="539000" />
     </task>
     <task id="LOCAL-00003" summary="form: add some style to form">
       <created>1584259316282</created>
@@ -563,11 +557,18 @@
       <option name="project" value="LOCAL" />
       <updated>1584950066618</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="form: add input color">
+      <created>1585045670372</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1585045670373</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68679000" />
+    <option name="totallyTimeSpent" value="69508000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="7" />
@@ -585,8 +586,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49947312" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.48998946" visible="true" weight="0.23055163" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49420443" weight="0.19660537" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.48998946" weight="0.23055163" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49420443" visible="true" weight="0.19660537" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51001054" side_tool="true" weight="0.32286024" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49947312" weight="0.43564355" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
@@ -647,7 +648,8 @@
     <MESSAGE value="form: add text_form" />
     <MESSAGE value="form: programm_form was added" />
     <MESSAGE value="form: date attribute" />
-    <option name="LAST_COMMIT_MESSAGE" value="form: date attribute" />
+    <MESSAGE value="form: add input color" />
+    <option name="LAST_COMMIT_MESSAGE" value="form: add input color" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/img/src/style.css.map" />
@@ -676,13 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -692,8 +687,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/program-general.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="214" column="32" selection-start-line="214" selection-start-column="32" selection-end-line="214" selection-end-column="32" />
+        <state relative-caret-position="34">
+          <caret line="73" column="66" selection-start-line="73" selection-start-column="66" selection-end-line="73" selection-end-column="66" />
           <folding>
             <element signature="n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
             <element signature="n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
@@ -703,17 +698,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/colors.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/program-general.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="118" column="25" lean-forward="true" selection-start-line="118" selection-start-column="25" selection-end-line="118" selection-end-column="25" />
+        <state relative-caret-position="307">
+          <caret line="106" column="16" lean-forward="true" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="16" />
         </state>
       </provider>
     </entry>

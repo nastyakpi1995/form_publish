@@ -28,11 +28,20 @@
   }
 }
 .label {
+  input {
+    border: 1px solid $white-color;
+  }
+  input:focus {
+    border: 1px solid $blue;
+    box-sizing: border-box;
+    border-radius: 3px;
+  }
   &_form-control {
     background: url("../assets/img/programm/calendar.svg") no-repeat;
     background-position-y: center;
     background-position-x: calc(100% - 10px);
   }
+
 }
 
 .select-box-header {
@@ -55,7 +64,7 @@
     height: 72px;
   }
   &-thuth:focus {
-    border: 1px solid $blue !important;
+    border: 1px solid $blue;
   }
   .label-name {
     margin-top: 12px;
@@ -66,7 +75,7 @@
     height: 92px !important;
   }
   &-story:focus {
-    border: 1px solid $blue !important;
+    border: 1px solid $blue;
   }
 }
 .custom-checkbox {
@@ -97,6 +106,9 @@
     height: 44px;
     width: 94px;
   }
+  &_name:focus {
+    border: 1px solid $blue;
+  }
 }
 .button_save {
   background: $blue;
@@ -109,10 +121,4 @@
 }
 .metric-box {
   width: 92px;
-}
-input[type="text"] {
-  border: 1px solid $white-color !important;
-}
-input[type="text"]:focus {
-  border: 1px solid $blue !important;
 }
