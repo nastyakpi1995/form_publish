@@ -54,6 +54,9 @@
     width: 387px;
     height: 72px;
   }
+  &-thuth:focus {
+    border: 1px solid $blue !important;
+  }
   .label-name {
     margin-top: 12px;
   }
@@ -61,6 +64,9 @@
     border: 1px solid;
     width: 387px !important;
     height: 92px !important;
+  }
+  &-story:focus {
+    border: 1px solid $blue !important;
   }
 }
 .custom-checkbox {
@@ -103,4 +109,10 @@
 }
 .metric-box {
   width: 92px;
+}
+input[type="text"] {
+  border: 1px solid $white-color !important;
+}
+input[type="text"]:focus {
+  border: 1px solid $blue !important;
 }
