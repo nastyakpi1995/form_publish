@@ -1286,8 +1286,8 @@
                             <label class="wod_exercises-block__label">
                                 <img src="assets/img/programm/drop_Group 190.svg">
                             </label>
-                            <div class="select-box">
-                                <div class="select-box__current" tabindex="1">
+                            <div class="select-box-revert">
+                                <div class="select-box-revert__current" tabindex="1">
                                     <div class="select-box__value">
                                         <input class="select-box__input" type="radio" id="exercise-cooldown" value="Awesome Result"
                                                name="name_exercise-unic_value-cooldown" />
@@ -1324,10 +1324,10 @@
                                         <p class="select-box__input-text height_value"></p>
                                     </div>
 
-                                    <img class="select-box__icon" src="assets/img/icons/dropdown_icon.svg"
+                                    <img class="select-box-revert__icon-revert" src="assets/img/icons/dropdown_icon.svg"
                                          alt="Arrow Icon" aria-hidden="true"/></div>
 
-                                <ul class="select-box__list">
+                                <ul class="select-box-revert__list-revert">
                                     <li><label class="select-box__option select-box-header" aria-hidden="aria-hidden">Add New +</label>
                                     </li>
                                     <li><label class="select-box__option" for="exercise-cooldown" aria-hidden="aria-hidden">Awesome result</label>
@@ -1397,8 +1397,8 @@
                             <label class="wod_exercises-block__label">
                                 <img src="assets/img/programm/drop_Group 190.svg">
                             </label>
-                            <div class="select-box">
-                                <div class="select-box__current" tabindex="1">
+                            <div class="select-box-revert">
+                                <div class="select-box-revert__current" tabindex="1">
                                     <div class="select-box__value">
                                         <input class="select-box__input" type="radio" id="exerciseValue21-cooldown" value="Awesome Result"
                                                name="totalfit_exerciseValue-cooldown" />
@@ -1435,10 +1435,10 @@
                                         <p class="select-box__input-text height_value"></p>
                                     </div>
 
-                                    <img class="select-box__icon" src="assets/img/icons/dropdown_icon.svg"
+                                    <img class="select-box-revert__icon-revert" src="assets/img/icons/dropdown_icon.svg"
                                          alt="Arrow Icon" aria-hidden="true"/></div>
 
-                                <ul class="select-box__list">
+                                <ul class="select-box-revert__list-revert">
                                     <li><label class="select-box__option select-box-header" aria-hidden="aria-hidden">Add New +</label>
                                     </li>
                                     <li><label class="select-box__option" for="exerciseValue21-cooldown" aria-hidden="aria-hidden">Awesome result</label>
@@ -1515,8 +1515,8 @@
 
                     <div class="form-group">
                         <div class="mt-3">
-                            <div class="select-box">
-                                <div class="select-box__current" tabindex="1">
+                            <div class="select-box-revert">
+                                <div class="select-box-revert__current" tabindex="1">
                                     <div class="select-box__value">
                                         <input class="select-box__input" type="radio" id="healthy1" value="Awesome Result"
                                                name="healthy1"  />
@@ -1553,10 +1553,10 @@
                                         <p class="select-box__input-text height_value"></p>
                                     </div>
 
-                                    <img class="select-box__icon" src="assets/img/icons/dropdown_icon.svg"
+                                    <img class="select-box-revert__icon-revert" src="assets/img/icons/dropdown_icon.svg"
                                          alt="Arrow Icon" aria-hidden="true"/></div>
 
-                                <ul class="select-box__list">
+                                <ul class="select-box-revert__list-revert">
                                     <li><label class="select-box__option select-box-header" aria-hidden="aria-hidden">Add New +</label>
                                     </li>
                                     <li><label class="select-box__option" for="healthy1" aria-hidden="aria-hidden">Awesome result</label>
@@ -1594,6 +1594,10 @@
         $('.select-box__current').click(function () {
             $('.select-box__list').toggleClass('active');
             $('.select-box__icon').toggleClass('active');
+        });
+        $('.select-box-revert__current').click(function () {
+            $('.select-box-revert__list-revert').toggleClass('active');
+            $('.select-box-revert__icon-revert').toggleClass('active');
         });
     });
 

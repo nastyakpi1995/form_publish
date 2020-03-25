@@ -11,19 +11,18 @@
   &-label::after {
     width: 24px;
     height: 24px;
-    border: 1px solid $white-color;
-    border-radius: 4px;
+    border: none;
   }
   &-label::before {
     position: absolute;
     background-color: $main-bg;
     width: 24px;
     height: 24px;
-    border: 1px solid $blue;
-    border-radius: 16px;
+    border: 1px solid $white-color ;
+    border-radius: 4px;
   }
   &-input:checked ~ .custom-control-label::before {
-    border: 1px solid $blue;
+    border: 1px solid $violet !important;
     background-color: $blue;
   }
 }
@@ -32,7 +31,7 @@
     border: 1px solid $white-color;
   }
   input:focus {
-    border: 1px solid $blue;
+    border: 1px solid $violet;
     box-sizing: border-box;
     border-radius: 3px;
   }
@@ -49,7 +48,7 @@
 }
 
 .custom-control-input:checked ~ .custom-control-label::before ~ .select-box__input:checked {
-  border: 14px solid $blue;
+  border: 1px solid $blue;
   background-color: $blue;
 }
 
@@ -64,7 +63,7 @@
     height: 72px;
   }
   &-thuth:focus {
-    border: 1px solid $blue;
+    border: 1px solid $violet;
   }
   .label-name {
     margin-top: 12px;
@@ -75,7 +74,7 @@
     height: 92px !important;
   }
   &-story:focus {
-    border: 1px solid $blue;
+    border: 1px solid $violet;
   }
 }
 .custom-checkbox {
@@ -127,4 +126,66 @@
 }
 .metric-box {
   width: 92px;
+}
+
+.select-box-revert {
+  position: relative;
+  display: block;
+  width: 228px;
+
+  &__current {
+    &:focus {
+      & + .select-box-revert__list-revert.active {
+        opacity: 1;
+
+        // We have to set "animation-name: none;" to make the list visible (read below how it works)
+        animation-name: none;
+
+        .select-box-revert__option.active {
+          cursor: pointer;
+        }
+      }
+
+      .select-box-revert__icon-revert.active {
+        transform: translateY(-50%) rotate(360deg);
+      }
+    }
+  }
+
+  &__icon-revert {
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    transform: translateY(-50%);
+    width: 13px;
+    transition: 0.2s ease;
+  }
+  &__icon-revert {
+    transform: translateY(-50%);
+  }
+  &:hover .select-box-revert__icon-revert{
+    transform: translateY(-50%) rotate(180deg);
+  }
+
+  &__list-revert {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    position: absolute;
+    z-index: 50;
+    bottom: 40px;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    opacity: 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    background-color: white;
+
+    animation-name: HideList;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: step-start;
+  }
 }
