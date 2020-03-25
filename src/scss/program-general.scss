@@ -22,7 +22,7 @@
     border-radius: 4px;
   }
   &-input:checked ~ .custom-control-label::before {
-    border: 1px solid $violet !important;
+    border: none;
     background-color: $blue;
   }
 }
@@ -48,7 +48,7 @@
 }
 
 .custom-control-input:checked ~ .custom-control-label::before ~ .select-box__input:checked {
-  border: 1px solid $blue;
+  border: 1px solid $violet;
   background-color: $blue;
 }
 
@@ -112,7 +112,7 @@
     width: 94px;
   }
   &_name:focus {
-    border: 1px solid $blue;
+    border: 1px solid $violet;
   }
 }
 .button_save {
@@ -148,6 +148,9 @@
 
       .select-box-revert__icon-revert.active {
         transform: translateY(-50%) rotate(360deg);
+      }
+      .select-box__input-text {
+        border: 1px solid $violet;
       }
     }
   }
