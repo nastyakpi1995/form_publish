@@ -31,7 +31,7 @@
     border: 1px solid $white-color;
   }
   input:focus {
-    border: 1px solid $violet;
+    border: 1px solid $blue;
     box-sizing: border-box;
     border-radius: 3px;
   }
@@ -48,7 +48,7 @@
 }
 
 .custom-control-input:checked ~ .custom-control-label::before ~ .select-box__input:checked {
-  border: 1px solid $violet;
+  border: 1px solid $blue;
   border-radius: 4px;
   background-color: $blue;
 }
@@ -66,7 +66,7 @@
   }
   &-thuth:focus {
     outline: none !important;
-    border: 1px solid $violet;
+    border: 1px solid $blue;
     border-radius: 4px;
   }
   .label-name {
@@ -81,7 +81,7 @@
   &-story:focus {
     outline: none !important;
     border-radius: 4px;
-    border: 1px solid $violet;
+    border: 1px solid $blue;
   }
 }
 .custom-checkbox {
@@ -118,7 +118,7 @@
     width: 94px;
   }
   &_name:focus {
-    border: 1px solid $violet;
+    border: 1px solid $blue;
   }
 }
 .button_save {
@@ -156,7 +156,7 @@
         transform: translateY(-50%) rotate(360deg);
       }
       .select-box__input-text {
-        border: 1px solid $violet;
+        border: 1px solid $blue;
       }
     }
   }

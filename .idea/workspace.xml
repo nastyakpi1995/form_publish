@@ -31,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/scss/program-general.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="75" column="22" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="22" />
+            <state relative-caret-position="179">
+              <caret line="75" column="22" lean-forward="true" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -185,7 +185,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,6 +213,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -280,13 +280,7 @@
       <workItem from="1585071981580" duration="6715000" />
       <workItem from="1585112226014" duration="12593000" />
       <workItem from="1585136202318" duration="54000" />
-    </task>
-    <task id="LOCAL-00010" summary="form: add text_form">
-      <created>1584281488608</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1584281488608</updated>
+      <workItem from="1585137399027" duration="307000" />
     </task>
     <task id="LOCAL-00011" summary="form: add text_form">
       <created>1584286721085</created>
@@ -624,11 +618,18 @@
       <option name="project" value="LOCAL" />
       <updated>1585136240491</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="form: after review was correct color input, style css border, add position fix menu and header">
+      <created>1585137622646</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1585137622646</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91390000" />
+    <option name="totallyTimeSpent" value="91697000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
@@ -805,8 +806,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/program-general.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="75" column="22" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="22" />
+        <state relative-caret-position="179">
+          <caret line="75" column="22" lean-forward="true" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
         </state>
       </provider>
     </entry>
