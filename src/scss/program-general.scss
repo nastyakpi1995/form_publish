@@ -65,10 +65,10 @@
     border-radius: 4px;
   }
   &-thuth:focus {
-    outline: none !important;
+    outline: none;
     border: 1px solid $blue;
     border-radius: 4px;
-    box-shadow: none !important;
+    box-shadow: none;
   }
   .label-name {
     margin-top: 12px;
@@ -80,8 +80,8 @@
     border-radius: 4px;
   }
   &-story:focus {
-    box-shadow: none !important;
-    outline: none !important;
+    box-shadow: none;
+    outline: none;
     border-radius: 4px;
     border: 1px solid $blue;
   }
