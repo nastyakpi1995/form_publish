@@ -1,49 +1,49 @@
-@import "colors";
-
-.dropdown-text {
-  position: relative;
-  height: 20px;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 14px;
-  line-height: 19px;
-  margin: 0;
-  width: 100%;
-  &:before {
-    content: "";
-    border-radius: 50%;
-    background: #907CFF;
-    opacity: 0;
-    height: 8px;
-    width: 8px;
-    display: block;
-  }
-}
-
-.filter-btn {
-  &:hover {
-    border: none;
-  }
-
-  &:hover .filter {
-    fill: $darken-gray;
-  }
-  .filter {
-    padding: 40px;
-  }
-
-  &[aria-expanded="true"] {
-    .filter {
-      fill: $darken-gray;
-    }
-    .filter-bg {
-      fill: $white-color;
-    }
-    .filter-btn {
-      background: black;
-    }
-
-  }
-}
+//@import "colors";
+//
+//.dropdown-text {
+//  position: relative;
+//  height: 20px;
+//  display: flex;
+//  flex-direction: row-reverse;
+//  justify-content: space-between;
+//  align-items: center;
+//  font-size: 14px;
+//  line-height: 19px;
+//  margin: 0;
+//  width: 100%;
+//  &:before {
+//    content: "";
+//    border-radius: 50%;
+//    background: #907CFF;
+//    opacity: 0;
+//    height: 8px;
+//    width: 8px;
+//    display: block;
+//  }
+//}
+//
+//.filter-btn {
+//  &:hover {
+//    border: none;
+//  }
+//
+//  &:hover .filter {
+//    fill: $darken-gray;
+//  }
+//  .filter {
+//    padding: 40px;
+//  }
+//
+//  &[aria-expanded="true"] {
+//    .filter {
+//      fill: $darken-gray;
+//    }
+//    .filter-bg {
+//      fill: $white-color;
+//    }
+//    .filter-btn {
+//      background: black;
+//    }
+//
+//  }
+//}
