@@ -299,7 +299,7 @@
                                     <img class="select-box__icon" src="assets/img/icons/dropdown_icon.svg"
                                          alt="Arrow Icon" aria-hidden="true"/></div>
 
-                                <ul class="select-box__list">
+                                <ul class="select-box-revert__list-revert">
                                     <li><label class="select-box__option" for="coach1"
                                                aria-hidden="aria-hidden">Cheese</label></li>
                                     <li><label class="select-box__option" for="coach2"
@@ -327,15 +327,4 @@
 </div>
 
 
-<script>
-
-    $(function () {
-        $('#user-phone').inputmask({"mask": "+9(999)99999999"});
-
-        $('.select-box__current').click(function () {
-            $('.select-box__list').toggleClass('active');
-            $('.select-box__icon').toggleClass('active');
-        });
-    });
-
-</script>
+<script src="../js/addGym/addGym.js"></script>

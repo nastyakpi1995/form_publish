@@ -6,6 +6,7 @@ body {
   font-family: "Roboto", sans-serif;
   background: $body-bg;
   height: 100vh;
+  position: relative;
 }
 
 button {
@@ -47,6 +48,15 @@ input[type=number]:focus,
   box-shadow: inset 0 -1px 0 #ddd;
 }
 
+#header {
+  width: 100vw;
+  height: 72px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+}
+
 main {
   background-color: $main-bg;
   margin: 0 auto;
@@ -57,14 +67,24 @@ main {
 
   #menu {
     border-right: 1px solid #D9D9D6;
+    height: 100vh;
+    width: 252px;
+    position: fixed;
+    left: 0;
+    top: 72px;
   }
 
+  .body{
+    margin-left: 252px;
+    margin-top: 72px;
+  }
   #gyms {
-    width: calc(100% - 252px);
+    width: 100%;
   }
 
-  #add-gym {
-    width: calc(100% - 252px);
+  #add-gym,
+  #add-program{
+    width: 100%;
   }
 
 

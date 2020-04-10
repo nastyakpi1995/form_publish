@@ -1,0 +1,66 @@
+@import "colors";
+
+.btn {
+  border: none;
+
+  .filter {
+    fill: #ACAEAC;;
+  }
+  .svg {
+    top: 9px;
+    left: 5px;
+    position: absolute;
+  }
+  &-secondary {
+    background: #F2F2F2;
+    border: none;
+    width: 26px;
+    height: 24px;
+    position: relative;
+    &:focus {
+      box-shadow: none !important;
+    }
+    &:not(:disabled):not(.disabled):active {
+      border: none;
+      background: #F2F2F2;
+      .filter {
+        fill:  #515759;
+      }
+    }
+    &:hover {
+      border: none;
+      background: #F2F2F2;
+      .filter {
+        fill:  #515759;
+      }
+    }
+  }
+
+  &[aria-expanded="true"] {
+    background: #D9D9D6;
+    border: none;
+    .filter {
+      fill:  #515759;
+    }
+  }
+}
+
+.dropdown-item {
+  font-size: 14px;
+  line-height: 19px;
+  color: $header-bg;
+  width: 100%;
+  padding: 8px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &:hover {
+    background-color: $input-bg !important;
+  }
+
+  &:active {
+    background-color: $input-bg;
+    color: $menu-color;
+  }
+}

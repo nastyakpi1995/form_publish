@@ -1,0 +1,27 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 5c1187f33e921aba4b2f04f4040e1c3a76398ce6)
++++ .idea/workspace.xml	(date 1586540884024)
+@@ -11,4 +11,18 @@
+     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+   </component>
++  <component name="WindowStateProjectService">
++    <state x="226" y="23" key="CommitChangelistDialog2" timestamp="1586540798608">
++      <screen x="0" y="23" width="1280" height="722" />
++    </state>
++    <state x="226" y="23" key="CommitChangelistDialog2/0.23.1280.722@0.23.1280.722" timestamp="1586540798608" />
++    <state x="449" y="23" width="369" height="722" key="RollbackChangesDialog" timestamp="1586540819742">
++      <screen x="0" y="23" width="1280" height="722" />
++    </state>
++    <state x="449" y="23" width="369" height="722" key="RollbackChangesDialog/0.23.1280.722@0.23.1280.722" timestamp="1586540819742" />
++    <state x="389" y="23" width="490" height="722" key="git4idea.branch.GitSmartOperationDialog" timestamp="1586540823319">
++      <screen x="0" y="23" width="1280" height="722" />
++    </state>
++    <state x="389" y="23" width="490" height="722" key="git4idea.branch.GitSmartOperationDialog/0.23.1280.722@0.23.1280.722" timestamp="1586540823319" />
++  </component>
+ </project>
+\ No newline at end of file

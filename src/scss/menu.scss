@@ -5,7 +5,6 @@
 }
 
 .menu-block {
-  margin-top: 72px;
 
   .menu {
     &-list {
@@ -30,9 +29,16 @@
         display: inline-block;
       }
 
+      .submenu-block{
+        height: 0;
+        overflow: hidden;
+        transition: all .7s;
+      }
+
       .submenu {
-        display: none;
+        transform: translateY(-100%);
         padding-left: 0;
+        transition: all 0.7s;
 
         li {
           padding-left: 76px;
@@ -47,6 +53,10 @@
       .active {
         color: $header-bg;
 
+        span {
+          color: $header-bg;
+        }
+
         .icon {
           stroke: $header-bg;
           stroke-width: 2;
@@ -58,8 +68,12 @@
           fill: $header-bg;
         }
 
+        .submenu-block {
+          height: 132px;
+        }
+
         .submenu {
-          display: block;
+          transform: translateY(0);
         }
       }
     }

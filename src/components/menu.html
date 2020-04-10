@@ -13,11 +13,13 @@
               Gym
             </span>
 
-                <ul class="submenu">
-                    <li class="menu-item">General</li>
-                    <li class="menu-item">Participants</li>
-                    <li class="menu-item">Settings</li>
-                </ul>
+                <div class="submenu-block">
+                    <ul class="submenu">
+                        <li class="menu-item">General</li>
+                        <li class="menu-item">Participants</li>
+                        <li class="menu-item">Settings</li>
+                    </ul>
+                </div>
             </li>
             <li class="menu-item">
 
@@ -30,7 +32,7 @@
 
 
             </li>
-            <li class="menu-item">
+            <li class="menu-item" id="my-programs-menu">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path class="icon"
                           d="M4.33975 7.57735L12 3.1547L19.6603 7.57735V16.4227L12 20.8453L4.33975 16.4227V7.57735Z"
@@ -98,26 +100,4 @@
         </ul>
     </nav>
 </div>
-<script>
-    $(function () {
-
-        $('.menu-list > li ').on('click', function (event) {
-            var $list = $('.menu-list > li ');
-
-            $list.each(function (i, element) {
-                if (event.target !== $(element)[0]) {
-                    if ($(element).hasClass('active')) {
-                        $(element).removeClass('active');
-                    }
-                }
-
-            });
-
-            $(this).addClass('active');
-            if ($('.header-center-back').hasClass('hide')) {
-                $('.header-center-back').removeClass('hide');
-            }
-        });
-
-    })
-</script>
+<script src="../js/menu/menu.js"></script>
