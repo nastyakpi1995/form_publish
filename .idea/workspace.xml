@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2d0b4d7e-e9fa-4249-91ad-52df970c02b8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/gyms/gyms.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/gyms/gyms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,12 +17,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-15" />
-    <option name="y" value="-15" />
-    <option name="width" value="3875" />
-    <option name="height" value="2095" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -81,13 +75,6 @@
       <workItem from="1585160240186" duration="401000" />
       <workItem from="1585161884005" duration="337000" />
       <workItem from="1585213641049" duration="252000" />
-    </task>
-    <task id="LOCAL-00017" summary="form: add text_form">
-      <created>1584295969434</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1584295969434</updated>
     </task>
     <task id="LOCAL-00018" summary="form: add text_form">
       <created>1584296814935</created>
@@ -425,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586541294005</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="form: after review was correct color input, style css border, add position fix menu and header">
+      <created>1586541725539</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1586541725539</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -474,17 +468,23 @@
     <option name="LAST_COMMIT_MESSAGE" value="form: after review was correct color input, style css border, add position fix menu and header" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="98" y="23" key="CommitChangelistDialog2" timestamp="1586541293779">
-      <screen x="0" y="23" width="1280" height="724" />
+    <state x="98" y="23" key="CommitChangelistDialog2" timestamp="1586541725325">
+      <screen x="0" y="23" width="1280" height="722" />
     </state>
+    <state x="98" y="23" key="CommitChangelistDialog2/0.23.1280.722@0.23.1280.722" timestamp="1586541725325" />
     <state x="98" y="23" key="CommitChangelistDialog2/0.23.1280.724@0.23.1280.724" timestamp="1586541293779" />
     <state x="121" y="84" key="DiffContextDialog" timestamp="1586541075452">
       <screen x="0" y="23" width="1280" height="724" />
     </state>
     <state x="121" y="84" key="DiffContextDialog/0.23.1280.724@0.23.1280.724" timestamp="1586541075452" />
-    <state x="234" y="105" key="Vcs.Push.Dialog.v2" timestamp="1586541298422">
-      <screen x="0" y="23" width="1280" height="724" />
+    <state x="234" y="105" key="Vcs.Push.Dialog.v2" timestamp="1586541729946">
+      <screen x="0" y="23" width="1280" height="722" />
     </state>
+    <state x="234" y="105" key="Vcs.Push.Dialog.v2/0.23.1280.722@0.23.1280.722" timestamp="1586541729946" />
     <state x="234" y="105" key="Vcs.Push.Dialog.v2/0.23.1280.724@0.23.1280.724" timestamp="1586541298422" />
+    <state x="554" y="125" width="687" height="518" key="find.popup" timestamp="1586542635891">
+      <screen x="0" y="23" width="1280" height="722" />
+    </state>
+    <state x="554" y="125" width="687" height="518" key="find.popup/0.23.1280.722@0.23.1280.722" timestamp="1586542635891" />
   </component>
 </project>
