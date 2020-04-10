@@ -3,47 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2d0b4d7e-e9fa-4249-91ad-52df970c02b8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/HorizontalLogoWhite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/HorizontalLogoWhite.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/MAX_2709.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/MAX_2709.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/gym-card/gym.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/gym-card/gym.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/header/back.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/header/back.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/header/exit.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/header/exit.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/header/notifications.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/header/notifications.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/header/search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/header/search.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/header/user-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/header/user-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/icons/dropdown_icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/icons/dropdown_icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/menu/assigned.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/menu/assigned.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/menu/calendar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/menu/calendar.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/menu/documents.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/menu/documents.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/menu/group.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/menu/group.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/menu/gym.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/menu/gym.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/menu/message.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/menu/message.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/menu/progress.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/menu/progress.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/programm/calendar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/programm/calendar.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/programm/correct.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/programm/correct.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/programm/drop_Group 190.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/programm/drop_Group 190.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/programm/dropdown_icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/programm/dropdown_icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/programm/icon-back.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/programm/icon-back.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/addGym.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/addGym.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/gyms.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/program-general.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/inputmask/jquery.inputmask.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/inputmask/jquery.inputmask.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/inputmask/jquery.inputmask.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/inputmask/jquery.inputmask.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/addGym.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/addGym.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/gyms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/gyms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/login/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/login/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/program-general.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/program-general.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,13 +119,6 @@
       <workItem from="1585160240186" duration="401000" />
       <workItem from="1585161884005" duration="337000" />
       <workItem from="1585213641049" duration="252000" />
-    </task>
-    <task id="LOCAL-00015" summary="form: add text_form">
-      <created>1584293512554</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1584293512554</updated>
     </task>
     <task id="LOCAL-00016" summary="form: add text_form">
       <created>1584294862453</created>
@@ -503,7 +456,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585213710030</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="form: after review was correct color input, style css border, add position fix menu and header">
+      <created>1586541198101</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1586541198102</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,13 +512,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="form: after review was correct color input, style css border, add position fix menu and header" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="98" y="23" key="CommitChangelistDialog2" timestamp="1586541076508">
+    <state x="98" y="23" key="CommitChangelistDialog2" timestamp="1586541197733">
       <screen x="0" y="23" width="1280" height="724" />
     </state>
-    <state x="98" y="23" key="CommitChangelistDialog2/0.23.1280.724@0.23.1280.724" timestamp="1586541076508" />
+    <state x="98" y="23" key="CommitChangelistDialog2/0.23.1280.724@0.23.1280.724" timestamp="1586541197733" />
     <state x="121" y="84" key="DiffContextDialog" timestamp="1586541075452">
       <screen x="0" y="23" width="1280" height="724" />
     </state>
     <state x="121" y="84" key="DiffContextDialog/0.23.1280.724@0.23.1280.724" timestamp="1586541075452" />
+    <state x="234" y="105" key="Vcs.Push.Dialog.v2" timestamp="1586541203435">
+      <screen x="0" y="23" width="1280" height="724" />
+    </state>
+    <state x="234" y="105" key="Vcs.Push.Dialog.v2/0.23.1280.724@0.23.1280.724" timestamp="1586541203435" />
   </component>
 </project>
