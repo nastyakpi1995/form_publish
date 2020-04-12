@@ -19,8 +19,10 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectId" id="1aRR7ejzFyNjCgUr5H8mbx6W3zA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../totalfit-statics-exchange/totalfit-statics-exchange-dev" />
@@ -76,13 +78,6 @@
       <workItem from="1585160240186" duration="401000" />
       <workItem from="1585161884005" duration="337000" />
       <workItem from="1585213641049" duration="252000" />
-    </task>
-    <task id="LOCAL-00018" summary="form: add text_form">
-      <created>1584296814935</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1584296814935</updated>
     </task>
     <task id="LOCAL-00019" summary="form: add text_form">
       <created>1584297136601</created>
@@ -420,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586541725539</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="form: after review was correct color input, style css border, add position fix menu and header">
+      <created>1586681204469</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1586681204470</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,19 +471,19 @@
     <option name="LAST_COMMIT_MESSAGE" value="form: after review was correct color input, style css border, add position fix menu and header" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="98" y="23" key="CommitChangelistDialog2" timestamp="1586541725325">
+    <state x="98" y="23" key="CommitChangelistDialog2" timestamp="1586681204225">
       <screen x="0" y="23" width="1280" height="722" />
     </state>
-    <state x="98" y="23" key="CommitChangelistDialog2/0.23.1280.722@0.23.1280.722" timestamp="1586541725325" />
+    <state x="98" y="23" key="CommitChangelistDialog2/0.23.1280.722@0.23.1280.722" timestamp="1586681204225" />
     <state x="98" y="23" key="CommitChangelistDialog2/0.23.1280.724@0.23.1280.724" timestamp="1586541293779" />
     <state x="121" y="84" key="DiffContextDialog" timestamp="1586541075452">
       <screen x="0" y="23" width="1280" height="724" />
     </state>
     <state x="121" y="84" key="DiffContextDialog/0.23.1280.724@0.23.1280.724" timestamp="1586541075452" />
-    <state x="234" y="105" key="Vcs.Push.Dialog.v2" timestamp="1586541729946">
+    <state x="234" y="105" key="Vcs.Push.Dialog.v2" timestamp="1586681213129">
       <screen x="0" y="23" width="1280" height="722" />
     </state>
-    <state x="234" y="105" key="Vcs.Push.Dialog.v2/0.23.1280.722@0.23.1280.722" timestamp="1586541729946" />
+    <state x="234" y="105" key="Vcs.Push.Dialog.v2/0.23.1280.722@0.23.1280.722" timestamp="1586681213129" />
     <state x="234" y="105" key="Vcs.Push.Dialog.v2/0.23.1280.724@0.23.1280.724" timestamp="1586541298422" />
     <state x="554" y="125" width="687" height="518" key="find.popup" timestamp="1586680885511">
       <screen x="0" y="23" width="1280" height="722" />
