@@ -84,7 +84,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px 13px 18px;
+    padding: 14px 20px 6px 18px;
 
     .input_mask {
       display: none;
@@ -158,7 +158,6 @@
 
       .dropdown-menu {
         background: $main-bg;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
         border-radius: 4px;
         padding: 12px 0;
 
@@ -180,6 +179,11 @@
         }
       }
     }
+  }
+
+  .dropdown-menu {
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   }
 
   .dropdown-box_apply {
@@ -234,8 +238,10 @@
       background: $main-bg;
       border: 1px solid $borderColor;
       border-radius: 4px;
+      transition: ease .2s;
 
       &:hover {
+        border: none;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
       }
       &:active {
@@ -318,7 +324,7 @@
       }
 
       .card-body {
-        padding: 13px 2px 0 16px;
+        padding: 12px 2px 0 16px;
         line-height: 2px;
 
         .title h5 {
@@ -335,7 +341,7 @@
           font-size: 12px;
           line-height: 14px;
           padding: 0;
-          margin: 0;
+          margin-bottom: 16px;
         }
       }
     }
