@@ -4,15 +4,28 @@
   border: none;
 
   .filter {
-    fill: #ACAEAC;;
+    fill: $gray;
   }
+
   .svg {
     top: 9px;
     left: 5px;
     position: absolute;
   }
+
+  &[aria-expanded="true"] {
+    background: $white-color;
+    border: none;
+    .filter-bg {
+      fill: black;
+    }
+    .filter {
+      fill:  $darken-gray;
+    }
+  }
+
   &-secondary {
-    background: #F2F2F2;
+    background: $input-bg;
     border: none;
     width: 26px;
     height: 24px;
@@ -22,25 +35,17 @@
     }
     &:not(:disabled):not(.disabled):active {
       border: none;
-      background: #F2F2F2;
+      background: $input-bg;
       .filter {
-        fill:  #515759;
+        fill: $darken-gray;
       }
     }
     &:hover {
       border: none;
-      background: #F2F2F2;
+      background: $input-bg;
       .filter {
-        fill:  #515759;
+        fill:  $darken-gray;
       }
-    }
-  }
-
-  &[aria-expanded="true"] {
-    background: #D9D9D6;
-    border: none;
-    .filter {
-      fill:  #515759;
     }
   }
 }
@@ -56,11 +61,28 @@
   align-items: center;
 
   &:hover {
-    background-color: $input-bg !important;
+    background-color: $input-bg;
   }
 
   &:active {
     background-color: $input-bg;
     color: $menu-color;
   }
+
+  &_delete {
+    padding: 0;
+  }
+}
+
+.dropdown-menu {
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 240px;
+}
+
+button {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  outline: 0 !important;
 }

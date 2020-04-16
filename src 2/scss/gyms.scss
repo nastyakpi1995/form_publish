@@ -1,0 +1,147 @@
+@import "colors";
+
+.content-block {
+  width: 100%;
+
+  .content {
+    padding: 0;
+    margin: 0;
+    max-width: initial;
+
+    .row {
+      margin-left: 14px;
+
+      > div {
+        padding: 10px 11px 15px 9px;
+      }
+    }
+
+    .gym-card {
+      height: 194px;
+      background: $main-bg;
+      border: 1px solid $borderColor;
+      border-radius: 4px;
+      transition: ease .2s;
+
+      &:hover {
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      }
+      &:active {
+        background: $coloRose;
+      }
+      .gym-card.active {
+        background-color: $input-bg;
+      }
+
+      .card-image {
+        &_box {
+          overflow: hidden;
+          box-sizing: border-box;
+          object-fit: cover;
+          width: 100%;
+          position: relative;
+          display: block;
+        }
+
+        > img {
+          overflow: hidden;
+          box-sizing: border-box;
+          object-fit: cover;
+          width: 100%;
+          position: relative;
+          display: block;
+          border-radius: 4px;
+          height: 112px;
+        }
+
+        .card-image-overlay {
+          display: flex;
+          padding: 12px 17px 0 16px;
+          justify-content: space-between;
+
+          span {
+            color: $header-color;
+            font-size: 12px;
+            padding: 2px 6px;
+            border-radius: 4px;
+            display: inline-block;
+          }
+          .go {
+            background-color: $greenGo;
+            height: 24px;
+            width: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+          }
+          .home {
+            background-color: $blue;
+            height: 24px;
+            display: flex;
+            width: 57px;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+          }
+
+          .general {
+            background-color: $white-color;
+            width: 26px;
+            height: 24px;
+            border-radius: 4px;
+            display: flex;
+            opacity: 0.5;
+            justify-content: center;
+            align-items: center;
+            &:hover {
+              opacity: 1;
+              background: $input-bg;
+              & + .general.active {
+                background: $header-bg;
+              }
+            }
+          }
+        }
+      }
+
+      .card-body {
+        padding: 12px 2px 0 16px;
+        line-height: 2px;
+
+        .title h5 {
+          color: $black;
+          font-family: "Roboto Bold", sans-serif;
+          font-weight: 700;
+          letter-spacing: .02em;
+          font-size: 19px;
+          line-height: 20px;
+        }
+
+        .address p {
+          color: $menu-color;
+          font-size: 12px;
+          line-height: 14px;
+          padding: 0;
+          margin-bottom: 16px;
+        }
+      }
+    }
+  }
+
+  .card_go {
+    height: 217px !important;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .gym-card {
+    width: 230px !important;
+  }
+}
+@media (min-width: 1386px) {
+  .gym-card {
+    width: 257px !important;
+  }
+}

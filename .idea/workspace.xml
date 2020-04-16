@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d0b4d7e-e9fa-4249-91ad-52df970c02b8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/buttons/buttonAddNewGym.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/buttons/modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/buttonAddNewGym.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/modal.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/buttons/button_menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/buttons/button_menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/buttons/dropButtonFilter.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/buttons/dropButtonFilter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/gyms/gyms.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/gyms/gyms.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/button_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/button_menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/dropButtonFilter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/dropButtonFilter.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/gyms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/gyms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/myPrograms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/myPrograms.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +33,11 @@
   </component>
   <component name="ProjectId" id="1aRR7ejzFyNjCgUr5H8mbx6W3zA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -39,7 +56,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e5f8af4d-8544-4f1e-98ec-db041d87d516" name="Default Changelist" comment="" />
+      <changelist id="2d0b4d7e-e9fa-4249-91ad-52df970c02b8" name="Default Changelist" comment="" />
       <created>1584258958736</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -78,13 +95,16 @@
       <workItem from="1585160240186" duration="401000" />
       <workItem from="1585161884005" duration="337000" />
       <workItem from="1585213641049" duration="252000" />
-    </task>
-    <task id="LOCAL-00019" summary="form: add text_form">
-      <created>1584297136601</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1584297136601</updated>
+      <workItem from="1586696260474" duration="344000" />
+      <workItem from="1586777645480" duration="15000" />
+      <workItem from="1586780847986" duration="2000" />
+      <workItem from="1586783159165" duration="1778000" />
+      <workItem from="1586784979786" duration="552000" />
+      <workItem from="1586785958296" duration="734000" />
+      <workItem from="1586848722283" duration="391000" />
+      <workItem from="1587013915569" duration="1653000" />
+      <workItem from="1587015709633" duration="887000" />
+      <workItem from="1587016787085" duration="1096000" />
     </task>
     <task id="LOCAL-00020" summary="form: add text_form">
       <created>1584345051389</created>
@@ -422,7 +442,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586681204470</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="check border not to move">
+      <created>1586696487005</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1586696487006</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,27 +495,32 @@
     <MESSAGE value="form: add input color correctly" />
     <MESSAGE value="form: after review" />
     <MESSAGE value="form: after review was correct color input, style css border, add position fix menu and header" />
-    <option name="LAST_COMMIT_MESSAGE" value="form: after review was correct color input, style css border, add position fix menu and header" />
+    <MESSAGE value="check border not to move" />
+    <option name="LAST_COMMIT_MESSAGE" value="check border not to move" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="98" y="23" key="CommitChangelistDialog2" timestamp="1586681204225">
+    <state x="98" y="23" key="CommitChangelistDialog2" timestamp="1586696486721">
       <screen x="0" y="23" width="1280" height="722" />
     </state>
-    <state x="98" y="23" key="CommitChangelistDialog2/0.23.1280.722@0.23.1280.722" timestamp="1586681204225" />
+    <state x="98" y="23" key="CommitChangelistDialog2/0.23.1280.722@0.23.1280.722" timestamp="1586696486721" />
     <state x="98" y="23" key="CommitChangelistDialog2/0.23.1280.724@0.23.1280.724" timestamp="1586541293779" />
-    <state x="121" y="84" key="DiffContextDialog" timestamp="1586541075452">
-      <screen x="0" y="23" width="1280" height="724" />
+    <state x="121" y="84" width="1024" height="582" key="DiffContextDialog" timestamp="1587017633993">
+      <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state x="121" y="84" key="DiffContextDialog/0.23.1280.724@0.23.1280.724" timestamp="1586541075452" />
-    <state x="234" y="105" key="Vcs.Push.Dialog.v2" timestamp="1586681213129">
+    <state x="121" y="84" width="1024" height="582" key="DiffContextDialog/0.23.1280.728@0.23.1280.728" timestamp="1587017617311" />
+    <state x="121" y="84" width="1024" height="582" key="DiffContextDialog/0.23.1280.729@0.23.1280.729" timestamp="1587017633993" />
+    <state x="234" y="105" key="Vcs.Push.Dialog.v2" timestamp="1586696497836">
       <screen x="0" y="23" width="1280" height="722" />
     </state>
-    <state x="234" y="105" key="Vcs.Push.Dialog.v2/0.23.1280.722@0.23.1280.722" timestamp="1586681213129" />
+    <state x="234" y="105" key="Vcs.Push.Dialog.v2/0.23.1280.722@0.23.1280.722" timestamp="1586696497836" />
     <state x="234" y="105" key="Vcs.Push.Dialog.v2/0.23.1280.724@0.23.1280.724" timestamp="1586541298422" />
-    <state x="554" y="125" width="687" height="518" key="find.popup" timestamp="1586680885511">
-      <screen x="0" y="23" width="1280" height="722" />
+    <state x="554" y="126" width="703" height="524" key="find.popup" timestamp="1587016146366">
+      <screen x="0" y="23" width="1280" height="730" />
     </state>
-    <state x="554" y="125" width="687" height="518" key="find.popup/0.23.1280.722@0.23.1280.722" timestamp="1586680885511" />
+    <state x="554" y="125" width="687" height="518" key="find.popup/0.23.1280.722@0.23.1280.722" timestamp="1586849038631" />
     <state x="554" y="125" width="687" height="520" key="find.popup/0.23.1280.724@0.23.1280.724" timestamp="1586549038585" />
+    <state x="554" y="125" width="687" height="521" key="find.popup/0.23.1280.725@0.23.1280.725" timestamp="1586784352483" />
+    <state x="554" y="126" width="703" height="524" key="find.popup/0.23.1280.730@0.23.1280.730" timestamp="1587016146366" />
   </component>
 </project>

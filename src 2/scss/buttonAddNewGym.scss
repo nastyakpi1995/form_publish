@@ -1,0 +1,45 @@
+@import "colors";
+
+.blue-btn {
+  background: $blue;
+  border-radius: 4px;
+  padding: 8px 17px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 0;
+  letter-spacing: -.0027em;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  color: $main-bg;
+  cursor: pointer;
+
+  &_button {
+    font-size: 29px;
+    margin: 0 8px 0 0;
+  }
+
+  &_add {
+    margin: 0 8px 0 0;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  &:hover {
+    background-color: $button-hover;
+  }
+
+  &:active {
+    background-color: $button-hover;
+    opacity: 0.68;
+    color: $activeColor;
+  }
+}
+
+button {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  outline: 0 !important;
+}
