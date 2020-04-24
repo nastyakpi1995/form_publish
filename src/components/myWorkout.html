@@ -1,0 +1,458 @@
+<div class="content-block myWorkout">
+  <div class="content-buttons">
+
+    <div class="dropdown filter">
+      <button role="button" type="button" class="filter-btn dropdown" data-toggle="dropdown">
+        <input class="input_mask" id="input_btn" checked type="radio" name="radioActive">
+        <label for="input_btn" class="filter-input_main">
+          <svg class="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect class="filter-bg" width="32" height="32" rx="4" fill="#F2F2F2"/>
+            <path class="filter" d="M14 22H18V20H14V22ZM7 10V12H25V10H7ZM10 17H22V15H10V17Z"
+                  fill="#ACAEAC"/>
+          </svg>
+        </label>
+      </button>
+
+      <form class="dropdown-menu">
+        <h5 class="dropdown-header">FIlter by model</h5>
+        <div class="dropdown-item link">
+          <input class="input_mask" id="go-total" type="radio" name="radioActive">
+          <label for="go-total" class="dropdown-text">Totalfit Go
+          </label>
+        </div>
+
+        <div class="dropdown-item link">
+          <input class="input_mask" id="home-total" type="radio" name="radioActive">
+          <label for="home-total" class="dropdown-text">Totalfit Home
+          </label>
+        </div>
+        <!--type='button' is important-->
+        <h5 class="dropdown-header">filter by direction</h5>
+        <div class="dropdown-item link">
+          <input class="input_mask" id="filter-direction1" type="radio" name="radioActive">
+          <label for="filter-direction1" class="dropdown-text">General
+          </label>
+        </div>
+        <div class="dropdown-item link">
+          <input class="input_mask" type="radio" id="filter-direction2" name="radioActive">
+          <label for="filter-direction2" class="dropdown-text">Defense</label>
+        </div>
+        <div class="dropdown-item link">
+          <input class="input_mask" type="radio" id="filter-direction3" name="radioActive">
+          <label for="filter-direction3" class="dropdown-text">Youth</label>
+        </div>
+        <div class="dropdown-item link">
+          <input class="input_mask" type="radio" id="filter-direction4" name="radioActive">
+          <label for="filter-direction4" class="dropdown-text">Performance</label>
+        </div>
+        <div class="dropdown-box_apply">
+          <h5 class="dropdown-header_clear">Clear all</h5>
+          <button type="button" class="blue-btn">
+            <span class="blue-btn_text">Apply</span>
+          </button>
+        </div>
+      </form>
+    </div>
+
+      <div class="content-buttons-right">
+
+        <a href="#" class="content-buttons__link active">all</a>
+        <a href="#" class="content-buttons__link">favourite</a>
+        <a href="#" class="content-buttons__link">workout shop</a>
+
+        <button class="add-gym-btn blue-btn">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19 13H13V19H11V13H5V11H11V5H13V11H19V13Z" fill="white"/>
+          </svg>
+          add new workout
+        </button>
+      </div>
+
+  </div>
+
+  <div class="content container">
+
+    <div class="row">
+      <div class="col-xl-3 col-lg-4 col-md-6">
+
+        <div class="card">
+
+          <div class="card-body">
+
+            <div class="card-dropdown">
+              <div class="dropdown show">
+                <button class="btn btn-secondary" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <svg width="16" height="4" viewBox="0 0 16 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="filter" cx="2" cy="2" r="2" fill="#ACAEAC"/>
+                    <circle class="filter" cx="8" cy="2" r="2" fill="#ACAEAC"/>
+                    <circle class="filter" cx="14" cy="2" r="2" fill="#ACAEAC"/>
+                  </svg>
+
+                </button>
+
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item link" href="#">Edit Gym</a>
+                  <a class="dropdown-item" href="#">View Gym</a>
+                  <a class="dropdown-item" href="#">Add to Program </a>
+                  <button type="button" class="dropdown-item " data-toggle="modal" data-target="#deleteWorkoutModalCenter">
+                    Delete Gym
+                  </button>
+
+                </div>
+              </div>
+
+            </div>
+
+            <div class="card-header">
+              <div class="card-detail">
+                <span class="card-detail-badge auto">Totalfit Created</span>
+              </div>
+            </div>
+
+            <div class="card-text">
+              <span class="card-text_subtitle">Totalfit Perfomance</span>
+              <h5 class="card-text_title">Bodyweight Workout With Tabata Finisher</h5>
+              <p class="card-text_details">Equipment: Treadmill, Rowing Machine, Fitness Ball</p>
+            </div>
+          </div>
+
+          <div class="card-footer">
+            <div class="card-footer__mark">
+              <svg width="14" height="23" viewBox="0 0 14 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 2C1 1.44772 1.44772 1 2 1H12C12.5523 1 13 1.44772 13 2V21.2177L8.15679 15.3505C7.55684 14.6237 6.44316 14.6237 5.84321 15.3505L0.999998 21.2177L1 2Z" stroke="#ACAEAC" stroke-width="2"/>
+              </svg>
+            </div>
+            <div class="card-footer__calendar">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 3H18V1H16V3H8V1H6V3H5C3.89 3 3.01 3.9 3.01 5L3 19C3 20.1 3.89 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3ZM19 19H5V9H19V19ZM19 7H5V5H19V7ZM17 12H12V17H17V12Z" fill="#ACAEAC"/>
+              </svg>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col-xl-3 col-lg-4 col-md-6">
+
+        <div class="card">
+
+          <div class="card-body">
+
+            <div class="card-dropdown">
+              <div class="dropdown show">
+                <button class="btn btn-secondary" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <svg width="16" height="4" viewBox="0 0 16 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="filter" cx="2" cy="2" r="2" fill="#ACAEAC"/>
+                    <circle class="filter" cx="8" cy="2" r="2" fill="#ACAEAC"/>
+                    <circle class="filter" cx="14" cy="2" r="2" fill="#ACAEAC"/>
+                  </svg>
+
+                </button>
+
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item link" href="#">Edit Gym</a>
+                  <a class="dropdown-item" href="#">View Gym</a>
+                  <a class="dropdown-item" href="#">Add to Program </a>
+                  <button type="button" class="dropdown-item " data-toggle="modal" data-target="#deleteWorkoutModalCenter">
+                    Delete Gym
+                  </button>
+
+                </div>
+              </div>
+
+            </div>
+
+            <div class="card-header">
+              <div class="card-detail">
+                <span class="card-detail-badge by">by John S.S</span>
+              </div>
+            </div>
+
+            <div class="card-text">
+              <span class="card-text_subtitle">Totalfit Perfomance</span>
+              <h5 class="card-text_title">Helthy body and clear mind</h5>
+              <p class="card-text_details">Equipment: Treadmill, Rowing Machine, Fitness Ball</p>
+            </div>
+          </div>
+
+          <div class="card-footer">
+            <div class="card-footer__mark">
+              <svg width="14" height="23" viewBox="0 0 14 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 2C1 1.44772 1.44772 1 2 1H12C12.5523 1 13 1.44772 13 2V21.2177L8.15679 15.3505C7.55684 14.6237 6.44316 14.6237 5.84321 15.3505L0.999998 21.2177L1 2Z" stroke="#ACAEAC" stroke-width="2"/>
+              </svg>
+            </div>
+            <div class="card-footer__calendar">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 3H18V1H16V3H8V1H6V3H5C3.89 3 3.01 3.9 3.01 5L3 19C3 20.1 3.89 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3ZM19 19H5V9H19V19ZM19 7H5V5H19V7ZM17 12H12V17H17V12Z" fill="#ACAEAC"/>
+              </svg>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col-xl-3 col-lg-4 col-md-6">
+
+        <div class="card">
+
+          <div class="card-body">
+
+            <div class="card-dropdown">
+              <div class="dropdown show">
+                <button class="btn btn-secondary" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <svg width="16" height="4" viewBox="0 0 16 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="filter" cx="2" cy="2" r="2" fill="#ACAEAC"/>
+                    <circle class="filter" cx="8" cy="2" r="2" fill="#ACAEAC"/>
+                    <circle class="filter" cx="14" cy="2" r="2" fill="#ACAEAC"/>
+                  </svg>
+
+                </button>
+
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item link" href="#">Edit Gym</a>
+                  <a class="dropdown-item" href="#">View Gym</a>
+                  <a class="dropdown-item" href="#">Add to Program </a>
+                  <button type="button" class="dropdown-item " data-toggle="modal" data-target="#deleteWorkoutModalCenter">
+                    Delete Gym
+                  </button>
+
+                </div>
+              </div>
+
+            </div>
+
+            <div class="card-text">
+              <span class="card-text_subtitle">Totalfit Perfomance</span>
+              <h5 class="card-text_title">Helthy body and clear mind</h5>
+              <p class="card-text_details">Equipment: Treadmill, Rowing Machine, Fitness Ball</p>
+            </div>
+          </div>
+
+          <div class="card-footer">
+            <div class="card-footer__mark">
+              <svg width="14" height="23" viewBox="0 0 14 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 2C1 1.44772 1.44772 1 2 1H12C12.5523 1 13 1.44772 13 2V21.2177L8.15679 15.3505C7.55684 14.6237 6.44316 14.6237 5.84321 15.3505L0.999998 21.2177L1 2Z" stroke="#ACAEAC" stroke-width="2"/>
+              </svg>
+            </div>
+            <div class="card-footer__calendar">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 3H18V1H16V3H8V1H6V3H5C3.89 3 3.01 3.9 3.01 5L3 19C3 20.1 3.89 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3ZM19 19H5V9H19V19ZM19 7H5V5H19V7ZM17 12H12V17H17V12Z" fill="#ACAEAC"/>
+              </svg>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col-xl-3 col-lg-4 col-md-6">
+
+        <div class="card">
+
+          <div class="card-body">
+
+            <div class="card-dropdown">
+              <div class="dropdown show">
+                <button class="btn btn-secondary" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <svg width="16" height="4" viewBox="0 0 16 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="filter" cx="2" cy="2" r="2" fill="#ACAEAC"/>
+                    <circle class="filter" cx="8" cy="2" r="2" fill="#ACAEAC"/>
+                    <circle class="filter" cx="14" cy="2" r="2" fill="#ACAEAC"/>
+                  </svg>
+
+                </button>
+
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item link" href="#">Edit Gym</a>
+                  <a class="dropdown-item" href="#">View Gym</a>
+                  <a class="dropdown-item" href="#">Add to Program </a>
+                  <button type="button" class="dropdown-item " data-toggle="modal" data-target="#deleteWorkoutModalCenter">
+                    Delete Gym
+                  </button>
+
+                </div>
+              </div>
+
+            </div>
+
+            <div class="card-header">
+              <div class="card-detail">
+                <span class="card-detail-badge by">by John S.S</span>
+              </div>
+            </div>
+
+            <div class="card-text">
+              <span class="card-text_subtitle">Totalfit Perfomance</span>
+              <h5 class="card-text_title">Helthy body and clear mind</h5>
+              <p class="card-text_details">Equipment: Treadmill, Rowing Machine, Fitness Ball</p>
+            </div>
+          </div>
+
+          <div class="card-footer">
+            <div class="card-footer__mark">
+              <svg width="14" height="23" viewBox="0 0 14 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 2C1 1.44772 1.44772 1 2 1H12C12.5523 1 13 1.44772 13 2V21.2177L8.15679 15.3505C7.55684 14.6237 6.44316 14.6237 5.84321 15.3505L0.999998 21.2177L1 2Z" stroke="#ACAEAC" stroke-width="2"/>
+              </svg>
+            </div>
+            <div class="card-footer__calendar">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 3H18V1H16V3H8V1H6V3H5C3.89 3 3.01 3.9 3.01 5L3 19C3 20.1 3.89 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3ZM19 19H5V9H19V19ZM19 7H5V5H19V7ZM17 12H12V17H17V12Z" fill="#ACAEAC"/>
+              </svg>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col-xl-3 col-lg-4 col-md-6">
+
+        <div class="card">
+
+          <div class="card-body">
+
+            <div class="card-dropdown">
+              <div class="dropdown show">
+                <button class="btn btn-secondary" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <svg width="16" height="4" viewBox="0 0 16 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="filter" cx="2" cy="2" r="2" fill="#ACAEAC"/>
+                    <circle class="filter" cx="8" cy="2" r="2" fill="#ACAEAC"/>
+                    <circle class="filter" cx="14" cy="2" r="2" fill="#ACAEAC"/>
+                  </svg>
+
+                </button>
+
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item link" href="#">Edit Gym</a>
+                  <a class="dropdown-item" href="#">View Gym</a>
+                  <a class="dropdown-item" href="#">Add to Program </a>
+                  <button type="button" class="dropdown-item " data-toggle="modal" data-target="#deleteWorkoutModalCenter">
+                    Delete Gym
+                  </button>
+
+                </div>
+              </div>
+
+            </div>
+
+            <div class="card-header">
+              <div class="card-detail">
+                <span class="card-detail-badge by">by John S.S</span>
+              </div>
+            </div>
+
+            <div class="card-text">
+              <span class="card-text_subtitle">Totalfit Perfomance</span>
+              <h5 class="card-text_title">Helthy body and clear mind</h5>
+              <p class="card-text_details">Equipment: Treadmill, Rowing Machine, Fitness Ball</p>
+            </div>
+          </div>
+
+          <div class="card-footer">
+            <div class="card-footer__mark">
+              <svg width="14" height="23" viewBox="0 0 14 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 2C1 1.44772 1.44772 1 2 1H12C12.5523 1 13 1.44772 13 2V21.2177L8.15679 15.3505C7.55684 14.6237 6.44316 14.6237 5.84321 15.3505L0.999998 21.2177L1 2Z" stroke="#ACAEAC" stroke-width="2"/>
+              </svg>
+            </div>
+            <div class="card-footer__calendar">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 3H18V1H16V3H8V1H6V3H5C3.89 3 3.01 3.9 3.01 5L3 19C3 20.1 3.89 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3ZM19 19H5V9H19V19ZM19 7H5V5H19V7ZM17 12H12V17H17V12Z" fill="#ACAEAC"/>
+              </svg>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col-xl-3 col-lg-4 col-md-6">
+
+        <div class="card">
+
+          <div class="card-body">
+
+            <div class="card-dropdown">
+              <div class="dropdown show">
+                <button class="btn btn-secondary" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <svg width="16" height="4" viewBox="0 0 16 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="filter" cx="2" cy="2" r="2" fill="#ACAEAC"/>
+                    <circle class="filter" cx="8" cy="2" r="2" fill="#ACAEAC"/>
+                    <circle class="filter" cx="14" cy="2" r="2" fill="#ACAEAC"/>
+                  </svg>
+
+                </button>
+
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item link" href="#">Edit Gym</a>
+                  <a class="dropdown-item" href="#">View Gym</a>
+                  <a class="dropdown-item" href="#">Add to Program </a>
+                  <button type="button" class="dropdown-item " data-toggle="modal" data-target="#deleteWorkoutModalCenter">
+                    Delete Gym
+                  </button>
+
+                </div>
+              </div>
+
+            </div>
+
+            <div class="card-header">
+              <div class="card-detail">
+                <span class="card-detail-badge by">by John S.S</span>
+              </div>
+            </div>
+
+            <div class="card-text">
+              <span class="card-text_subtitle">Totalfit Perfomance</span>
+              <h5 class="card-text_title">Helthy body and clear mind</h5>
+              <p class="card-text_details">Equipment: Treadmill, Rowing Machine, Fitness Ball</p>
+            </div>
+          </div>
+
+          <div class="card-footer">
+            <div class="card-footer__mark">
+              <svg width="14" height="23" viewBox="0 0 14 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 2C1 1.44772 1.44772 1 2 1H12C12.5523 1 13 1.44772 13 2V21.2177L8.15679 15.3505C7.55684 14.6237 6.44316 14.6237 5.84321 15.3505L0.999998 21.2177L1 2Z" stroke="#ACAEAC" stroke-width="2"/>
+              </svg>
+            </div>
+            <div class="card-footer__calendar">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 3H18V1H16V3H8V1H6V3H5C3.89 3 3.01 3.9 3.01 5L3 19C3 20.1 3.89 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3ZM19 19H5V9H19V19ZM19 7H5V5H19V7ZM17 12H12V17H17V12Z" fill="#ACAEAC"/>
+              </svg>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="deleteWorkoutModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <button type="button" class="modal_close" data-dismiss="modal"><img src="assets/img/gym-card/close.png" alt="cansel"></button>
+
+            <div class="modal_header">
+              <h5 class="modal-title" id="deleteModalCenterTitle">You are about to delete a workout?</h5>
+            </div>
+            <div class="modal_body">
+              This will delete Healthy body and clear mind
+              from catalog. Are you sure?
+            </div>
+            <div class="modal_footer">
+              <div class="dropdown-box_apply modal_box">
+
+                <button type="button" class="dropdown-header_clear" data-dismiss="modal">Cancel</button>
+
+                <button class="blue-btn">
+                  <span class="blue-btn_text">delete</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal end -->
+    </div>
+
+  </div>
+</div>
+
+<script src="../js/card/card.js"></script>
+<script src="../js/myWorkout/myWorkout.js"></script>
+<script src="../js/filter.js"></script>

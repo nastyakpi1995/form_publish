@@ -1,0 +1,46 @@
+@import "colors";
+
+.myWorkout {
+
+  .content-buttons {
+
+    &-right {
+
+      .content-buttons__link {
+        text-transform: uppercase;
+        color: $menu-color;
+        padding: 7px 12px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.0125em;
+
+        &:hover {
+          color: $header-bg;
+          border-bottom: 2px solid $white-color;
+          text-decoration: none;
+        }
+
+        &:active {
+          color: $header-bg;
+          border-bottom: 2px solid $blue;
+        }
+
+        &.active {
+          color: $header-bg;
+          border-bottom: 2px solid $blue;
+        }
+      }
+    }
+  }
+
+  .container {
+    .row {
+      .card {
+        .card-text {
+          padding-top: 20px;
+        }
+      }
+    }
+  }
+}

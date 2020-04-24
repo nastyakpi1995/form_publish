@@ -1,0 +1,125 @@
+@import "src/scss/colors";
+
+.filter {
+
+  .input_mask {
+    display: none;
+  }
+
+  .dropdown-menu.show {
+    background: $main-bg;
+    border-radius: 4px;
+    padding: 12px 0;
+    width: 240px !important;
+
+    .dropdown-header {
+      color: $menu-color;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      font-size: 10px;
+      line-height: 12px;
+      padding: 12px 24px;
+    }
+
+    .dropdown-item {
+      color: $header-bg;
+      width: 100%;
+      padding: 8px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &:hover {
+        background-color: $input-bg !important;
+      }
+
+      &:active {
+        background-color: $input-bg;
+        color: $menu-color;
+      }
+    }
+
+    .dropdown-text {
+      height: 20px;
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 14px;
+      line-height: 19px;
+      margin: 0;
+      width: 100%;
+
+      &:before {
+        content: "";
+        border-radius: 50%;
+        background: $blue;
+        opacity: 0;
+        height: 8px;
+        width: 8px;
+        display: block;
+      }
+    }
+
+    .input_mask:checked + .dropdown-text:before {
+      opacity: 1;
+    }
+  }
+
+  .dropdown-box_apply {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 22px 25px;
+
+    .dropdown-header_clear {
+      color: $menu-color;
+      letter-spacing: 0.0125em;
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      margin-bottom: 0;
+    }
+  }
+
+  .input_mask:checked + .filter-input_main {
+    .filter {
+      fill: $gray;
+      &-bg {
+        fill: $input-bg;;
+      }
+    }
+  }
+}
+
+
+.filter-btn {
+  &:hover {
+    border: none;
+  }
+
+  &:hover .filter {
+    fill: $darken-gray;
+  }
+  .filter {
+    padding: 40px;
+    fill: $blue;
+    &-bg {
+      fill: $rose;
+    }
+  }
+
+  &[aria-expanded="true"] {
+    .filter {
+      fill: $darken-gray !important;
+      &-bg {
+        fill: $white-color !important;
+      }
+      &-btn {
+        background: black;
+      }
+    }
+  }
+}
+

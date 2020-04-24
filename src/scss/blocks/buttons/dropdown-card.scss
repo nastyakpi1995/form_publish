@@ -1,0 +1,68 @@
+@import "../../colors";
+
+.btn {
+  border: none;
+
+  &-secondary {
+    background: $input-bg;
+    border: none;
+    width: 26px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    position: relative;
+
+    &:focus {
+      box-shadow: none !important;
+    }
+
+    &:not(:disabled):not(.disabled):active {
+      border: none;
+      background: $input-bg;
+
+      .filter {
+        fill: $darken-gray;
+      }
+    }
+
+    &:hover {
+      border: none;
+      background: $input-bg;
+
+      .filter {
+        fill:  $darken-gray;
+      }
+    }
+  }
+}
+
+.dropdown-item {
+  font-size: 14px;
+  line-height: 19px;
+  color: $header-bg;
+  width: 100%;
+  padding: 8px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &:hover {
+    background-color: $input-bg;
+  }
+
+  &:active {
+    background-color: $input-bg;
+    color: $menu-color;
+  }
+
+  &_delete {
+    padding: 0;
+  }
+}
+
+.dropdown-menu {
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,438 @@
+<div class="content-block gyms">
+    <div class="content-buttons">
+
+        <div class="dropdown filter">
+            <button role="button" type="button" class="filter-btn dropdown" data-toggle="dropdown">
+                <input class="input_mask" id="input_btn" checked type="radio" name="radioActive">
+                <label for="input_btn" class="filter-input_main">
+                    <svg class="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect class="filter-bg" width="32" height="32" rx="4" fill="#F2F2F2"/>
+                        <path class="filter" d="M14 22H18V20H14V22ZM7 10V12H25V10H7ZM10 17H22V15H10V17Z"
+                              fill="#ACAEAC"/>
+                    </svg>
+                </label>
+            </button>
+
+            <form class="dropdown-menu">
+                <h5 class="dropdown-header">FIlter by model</h5>
+                <div class="dropdown-item link">
+                    <input class="input_mask" id="go-total" type="radio" name="radioActive">
+                    <label for="go-total" class="dropdown-text">Totalfit Go
+                    </label>
+                </div>
+
+                <div class="dropdown-item link">
+                    <input class="input_mask" id="home-total" type="radio" name="radioActive">
+                    <label for="home-total" class="dropdown-text">Totalfit Home
+                    </label>
+                </div>
+                <!--type='button' is important-->
+                <h5 class="dropdown-header">filter by direction</h5>
+                <div class="dropdown-item link">
+                    <input class="input_mask" id="filter-direction1" type="radio" name="radioActive">
+                    <label for="filter-direction1" class="dropdown-text">General
+                    </label>
+                </div>
+                <div class="dropdown-item link">
+                    <input class="input_mask" type="radio" id="filter-direction2" name="radioActive">
+                    <label for="filter-direction2" class="dropdown-text">Defense</label>
+                </div>
+                <div class="dropdown-item link">
+                    <input class="input_mask" type="radio" id="filter-direction3" name="radioActive">
+                    <label for="filter-direction3" class="dropdown-text">Youth</label>
+                </div>
+                <div class="dropdown-item link">
+                    <input class="input_mask" type="radio" id="filter-direction4" name="radioActive">
+                    <label for="filter-direction4" class="dropdown-text">Performance</label>
+                </div>
+                <div class="dropdown-box_apply">
+                    <h5 class="dropdown-header_clear">Clear all</h5>
+                    <button type="button" class="blue-btn">
+                        <span class="blue-btn_text">Apply</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <div class="content-buttons-right">
+
+            <button class="blue-btn">
+                <span class="blue-btn_icon">+</span> <span class="blue-btn_text">add location</span>
+            </button>
+
+        </div>
+
+    </div>
+
+    <div class="content container">
+
+        <div class="row">
+            <div class="col-xl-3 col-lg-4 col-md-6">
+
+                <div class="card">
+
+                    <div class="card-image">
+                        <img class="w-100" src="assets/img/gym-card/gym.png" alt="Gym"/>
+                    </div>
+
+                    <div class="card-body">
+
+                        <div class="card-dropdown">
+                            <div class="dropdown show">
+                                <button class="btn btn-secondary" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <svg width="16" height="4" viewBox="0 0 16 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle class="filter" cx="2" cy="2" r="2" fill="#ACAEAC"/>
+                                        <circle class="filter" cx="8" cy="2" r="2" fill="#ACAEAC"/>
+                                        <circle class="filter" cx="14" cy="2" r="2" fill="#ACAEAC"/>
+                                    </svg>
+
+                                </button>
+
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item link" href="#">Edit Gym</a>
+                                    <a class="dropdown-item" href="#">View Gym</a>
+                                    <a class="dropdown-item" href="#">
+                                        <button type="button" class="dropdown-item_delete" data-toggle="modal" data-target="#deleteModalCenter">
+                                            Delete Gym
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="card-header">
+
+                            <div class="card-detail">
+                                <span class="card-detail-badge home">Home</span>
+                            </div>
+                        </div>
+
+                        <div class="card-text">
+
+                            <h5 class="card-text_title">Totalfit Brighton</h5>
+                            <p class="card-text_address">34, Watson st. London, UK</p>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6">
+
+                <div class="card">
+
+                    <div class="card-image">
+                        <img class="w-100" src="assets/img/gym-card/gym.png" alt="Gym"/>
+                    </div>
+
+                    <div class="card-body">
+
+                        <div class="card-dropdown">
+                            <div class="dropdown show">
+                                <button class="btn btn-secondary" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <svg width="16" height="4" viewBox="0 0 16 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle class="filter" cx="2" cy="2" r="2" fill="#ACAEAC"/>
+                                        <circle class="filter" cx="8" cy="2" r="2" fill="#ACAEAC"/>
+                                        <circle class="filter" cx="14" cy="2" r="2" fill="#ACAEAC"/>
+                                    </svg>
+
+                                </button>
+
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item link" href="#">Edit Gym</a>
+                                    <a class="dropdown-item" href="#">View Gym</a>
+                                    <a class="dropdown-item" href="#">
+                                        <button type="button" class="dropdown-item_delete" data-toggle="modal" data-target="#deleteModalCenter">
+                                            Delete Gym
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="card-header">
+
+                            <div class="card-detail">
+                                <span class="card-detail-badge go">Go</span>
+                            </div>
+                        </div>
+
+                        <div class="card-text">
+
+                            <h5 class="card-text_title">Totalfit Brighton</h5>
+                            <p class="card-text_address">34, Watson st. London, UK</p>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6">
+
+                <div class="card">
+
+                    <div class="card-image">
+                        <img class="w-100" src="assets/img/gym-card/gym.png" alt="Gym"/>
+                    </div>
+
+                    <div class="card-body">
+
+                        <div class="card-dropdown">
+                            <div class="dropdown show">
+                                <button class="btn btn-secondary" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <svg width="16" height="4" viewBox="0 0 16 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle class="filter" cx="2" cy="2" r="2" fill="#ACAEAC"/>
+                                        <circle class="filter" cx="8" cy="2" r="2" fill="#ACAEAC"/>
+                                        <circle class="filter" cx="14" cy="2" r="2" fill="#ACAEAC"/>
+                                    </svg>
+
+                                </button>
+
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item link" href="#">Edit Gym</a>
+                                    <a class="dropdown-item" href="#">View Gym</a>
+                                    <a class="dropdown-item" href="#">
+                                        <button type="button" class="dropdown-item_delete" data-toggle="modal" data-target="#deleteModalCenter">
+                                            Delete Gym
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="card-header">
+
+                            <div class="card-detail">
+                                <span class="card-detail-badge home">Home</span>
+                            </div>
+                        </div>
+
+                        <div class="card-text">
+
+                            <h5 class="card-text_title">Totalfit Brighton</h5>
+                            <p class="card-text_address">34, Watson st. London, UK</p>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6">
+
+                <div class="card">
+
+                    <div class="card-image">
+                        <img class="w-100" src="assets/img/gym-card/gym.png" alt="Gym"/>
+                    </div>
+
+                    <div class="card-body">
+
+                        <div class="card-dropdown">
+                            <div class="dropdown show">
+                                <button class="btn btn-secondary" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <svg width="16" height="4" viewBox="0 0 16 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle class="filter" cx="2" cy="2" r="2" fill="#ACAEAC"/>
+                                        <circle class="filter" cx="8" cy="2" r="2" fill="#ACAEAC"/>
+                                        <circle class="filter" cx="14" cy="2" r="2" fill="#ACAEAC"/>
+                                    </svg>
+
+                                </button>
+
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item link" href="#">Edit Gym</a>
+                                    <a class="dropdown-item" href="#">View Gym</a>
+                                    <a class="dropdown-item" href="#">
+                                        <button type="button" class="dropdown-item_delete" data-toggle="modal" data-target="#deleteModalCenter">
+                                            Delete Gym
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="card-header">
+
+                            <div class="card-detail">
+                                <span class="card-detail-badge home">Home</span>
+                            </div>
+                        </div>
+
+                        <div class="card-text">
+
+                            <h5 class="card-text_title">Totalfit Brighton</h5>
+                            <p class="card-text_address">34, Watson st. London, UK</p>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="card">
+
+                    <div class="card-image">
+                        <img class="w-100" src="assets/img/gym-card/gym.png" alt="Gym"/>
+                    </div>
+
+                    <div class="card-body">
+
+                        <div class="card-dropdown">
+                            <div class="dropdown show">
+                                <button class="btn btn-secondary" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <svg width="16" height="4" viewBox="0 0 16 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle class="filter" cx="2" cy="2" r="2" fill="#ACAEAC"/>
+                                        <circle class="filter" cx="8" cy="2" r="2" fill="#ACAEAC"/>
+                                        <circle class="filter" cx="14" cy="2" r="2" fill="#ACAEAC"/>
+                                    </svg>
+
+                                </button>
+
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item link" href="#">Edit Gym</a>
+                                    <a class="dropdown-item" href="#">View Gym</a>
+                                    <a class="dropdown-item" href="#">
+                                        <button type="button" class="dropdown-item_delete" data-toggle="modal" data-target="#deleteModalCenter">
+                                            Delete Gym
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="card-header">
+
+                            <div class="card-detail">
+                                <span class="card-detail-badge home">Home</span>
+                            </div>
+                        </div>
+
+                        <div class="card-text">
+
+                            <h5 class="card-text_title">Totalfit Brighton</h5>
+                            <p class="card-text_address">34, Watson st. London, UK</p>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="card">
+
+                    <div class="card-image">
+                        <img class="w-100" src="assets/img/gym-card/gym.png" alt="Gym"/>
+                    </div>
+
+                    <div class="card-body">
+
+                        <div class="card-dropdown">
+                            <div class="dropdown show">
+                                <button class="btn btn-secondary" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <svg width="16" height="4" viewBox="0 0 16 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle class="filter" cx="2" cy="2" r="2" fill="#ACAEAC"/>
+                                        <circle class="filter" cx="8" cy="2" r="2" fill="#ACAEAC"/>
+                                        <circle class="filter" cx="14" cy="2" r="2" fill="#ACAEAC"/>
+                                    </svg>
+
+                                </button>
+
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item link" href="#">Edit Gym</a>
+                                    <a class="dropdown-item" href="#">View Gym</a>
+                                    <a class="dropdown-item" href="#">
+                                        <button type="button" class="dropdown-item_delete" data-toggle="modal" data-target="#deleteModalCenter">
+                                            Delete Gym
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="card-header">
+
+                            <div class="card-detail">
+                                <span class="card-detail-badge home">Home</span>
+                            </div>
+                        </div>
+
+                        <div class="card-text">
+
+                            <h5 class="card-text_title">Totalfit Brighton</h5>
+                            <p class="card-text_address">34, Watson st. London, UK</p>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="deleteModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <button type="button" class="modal_close" data-dismiss="modal"><img src="assets/img/gym-card/close.png" alt="cansel"></button>
+
+                        <div class="modal_header">
+                            <h5 class="modal-title" id="deleteModalCenterTitle">You are about to delete a gym?</h5>
+                        </div>
+                        <div class="modal_body">
+                            This will delete Totalfit Brighton Gym from catalog.
+                            Are you sure?
+                        </div>
+                        <div class="modal_footer">
+                            <div class="dropdown-box_apply modal_box">
+
+                                <button type="button" class="dropdown-header_clear" data-dismiss="modal">Cancel</button>
+
+                                <button class="blue-btn">
+                                    <span class="blue-btn_text">delete</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal end -->
+        </div>
+
+    </div>
+</div>
+
+<script src="../js/gyms/gyms.js"></script>
+<!--<script>-->
+<!--    $(function () {-->
+<!--        $('#user-data').inputmask({"mask": `99/99/99, ${[' ']} 99:99`});-->
+
+<!--        $('.select-box__current').click(function () {-->
+<!--            $('.select-box__list').toggleClass('active');-->
+<!--            $('.select-box__icon').toggleClass('active');-->
+<!--        });-->
+<!--        $('.select-box-revert__current').click(function () {-->
+<!--            $('.select-box-revert__list-revert').toggleClass('active');-->
+<!--            $('.select-box-revert__icon-revert').toggleClass('active');-->
+<!--        });-->
+<!--    });-->
+<!--</script>-->
