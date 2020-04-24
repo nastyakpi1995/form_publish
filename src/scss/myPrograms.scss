@@ -1,0 +1,67 @@
+@import "colors";
+
+.content-block {
+
+  .myGyms {
+
+    .gym-card {
+
+      .card-image {
+
+        .card-image-overlay {
+          position: static;
+          left: 0;
+          bottom: 0;
+
+          .created {
+            position: absolute;
+            top: 12px;
+            left: 0;
+            padding: 2px 6px;
+            background-color: $yellow;
+            color: black;
+            border-bottom-left-radius: 0;
+            border-top-left-radius: 0;
+          }
+
+          .time {
+            position: absolute;
+            bottom: 12px;
+            left: 12px;
+            padding: 0 4px;
+            border-radius: 4px;
+            background-color: $blue;
+            box-sizing: border-box;
+
+            span {
+              font-size: 12px;
+              line-height: 14px;
+              padding: 0;
+            }
+          }
+        }
+      }
+
+      .card-body {
+        padding-top: 8px;
+
+        .subtitle {
+          font-size: 10px;
+          line-height: 12px;
+          letter-spacing: 0.05em;
+          text-transform: uppercase;
+          color: $blue;
+          margin: 4px 0;
+        }
+
+        .result {
+          font-size: 14px;
+          line-height: 19px;
+          color: $menu-color;
+          margin: 4px 0;
+        }
+      }
+    }
+  }
+
+}

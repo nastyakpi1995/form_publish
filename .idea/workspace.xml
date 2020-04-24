@@ -2,21 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d0b4d7e-e9fa-4249-91ad-52df970c02b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/buttons/buttonAddNewGym.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/buttons/modal.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/buttonAddNewGym.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/modal.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/buttons/button_menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/buttons/button_menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/buttons/dropButtonFilter.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/buttons/dropButtonFilter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/gyms/gyms.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/gyms/gyms.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/button_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/button_menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/dropButtonFilter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/dropButtonFilter.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/gyms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/gyms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/myPrograms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/myPrograms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/assets/img/HorizontalLogoWhite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/HorizontalLogoWhite.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/assets/img/MAX_2709.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/MAX_2709.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/assets/img/gym-card/close.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/gym-card/close.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/assets/img/gym-card/ellipse.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/gym-card/ellipse.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/assets/img/gym-card/gym.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/gym-card/gym.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/assets/img/header/back.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/header/back.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/assets/img/header/exit.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/header/exit.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/assets/img/header/notifications.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/header/notifications.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/assets/img/header/search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/header/search.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/assets/img/header/user-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/header/user-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/assets/img/icons/clock.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/icons/clock.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/assets/img/icons/dropdown_icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/icons/dropdown_icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/assets/img/menu/assigned.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/menu/assigned.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/assets/img/menu/calendar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/menu/calendar.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/assets/img/menu/documents.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/menu/documents.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/assets/img/menu/group.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/menu/group.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/assets/img/menu/gym.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/menu/gym.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/assets/img/menu/message.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/menu/message.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/assets/img/menu/progress.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/menu/progress.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/assets/img/programm/calendar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/programm/calendar.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/assets/img/programm/correct.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/programm/correct.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/assets/img/programm/drop_Group 190.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/programm/drop_Group 190.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/assets/img/programm/dropdown_icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/programm/dropdown_icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/assets/img/programm/icon-back.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/programm/icon-back.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/components/addGym.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/addGym.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/components/buttons/buttonAddNewGym.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/buttons/buttonAddNewGym.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/components/buttons/button_menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/buttons/button_menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/components/buttons/dropButtonFilter.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/buttons/dropButtonFilter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/components/buttons/modal.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/buttons/modal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/components/gyms/gyms.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/gyms/gyms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/components/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/components/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/components/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/components/myProgram.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/myProgram.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/components/program/program-general.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/program/program-general.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/js/addGym/addGym.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/addGym/addGym.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/js/filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/filter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/js/gyms/gyms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/gyms/gyms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/js/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/header/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/js/inputmask/jquery.inputmask.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/inputmask/jquery.inputmask.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/js/inputmask/jquery.inputmask.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/inputmask/jquery.inputmask.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/js/menu/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/menu/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/js/program/program.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/program/program.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/scss/addGym.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/addGym.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/scss/buttonAddNewGym.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/buttonAddNewGym.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/scss/button_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/button_menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/scss/colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/scss/dropButtonFilter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/dropButtonFilter.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/scss/gyms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/gyms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/scss/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/scss/login/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/login/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/scss/menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/scss/modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/modal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/scss/myPrograms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/myPrograms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 2/scss/program-general.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/program-general.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,13 +151,8 @@
       <workItem from="1587013915569" duration="1653000" />
       <workItem from="1587015709633" duration="887000" />
       <workItem from="1587016787085" duration="1096000" />
-    </task>
-    <task id="LOCAL-00020" summary="form: add text_form">
-      <created>1584345051389</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1584345051389</updated>
+      <workItem from="1587017974035" duration="238000" />
+      <workItem from="1587232811562" duration="87000" />
     </task>
     <task id="LOCAL-00021" summary="form: add text_form">
       <created>1584345861081</created>
@@ -449,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586696487006</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="refactor code after Olga">
+      <created>1587018071969</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1587018071970</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,25 +544,28 @@
     <MESSAGE value="form: after review" />
     <MESSAGE value="form: after review was correct color input, style css border, add position fix menu and header" />
     <MESSAGE value="check border not to move" />
-    <option name="LAST_COMMIT_MESSAGE" value="check border not to move" />
+    <MESSAGE value="refactor code after Olga" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor code after Olga" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="98" y="23" key="CommitChangelistDialog2" timestamp="1586696486721">
-      <screen x="0" y="23" width="1280" height="722" />
+    <state x="98" y="23" key="CommitChangelistDialog2" timestamp="1587018071499">
+      <screen x="0" y="23" width="1280" height="725" />
     </state>
     <state x="98" y="23" key="CommitChangelistDialog2/0.23.1280.722@0.23.1280.722" timestamp="1586696486721" />
     <state x="98" y="23" key="CommitChangelistDialog2/0.23.1280.724@0.23.1280.724" timestamp="1586541293779" />
+    <state x="98" y="23" key="CommitChangelistDialog2/0.23.1280.725@0.23.1280.725" timestamp="1587018071499" />
     <state x="121" y="84" width="1024" height="582" key="DiffContextDialog" timestamp="1587017633993">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state x="121" y="84" key="DiffContextDialog/0.23.1280.724@0.23.1280.724" timestamp="1586541075452" />
     <state x="121" y="84" width="1024" height="582" key="DiffContextDialog/0.23.1280.728@0.23.1280.728" timestamp="1587017617311" />
     <state x="121" y="84" width="1024" height="582" key="DiffContextDialog/0.23.1280.729@0.23.1280.729" timestamp="1587017633993" />
-    <state x="234" y="105" key="Vcs.Push.Dialog.v2" timestamp="1586696497836">
-      <screen x="0" y="23" width="1280" height="722" />
+    <state x="234" y="105" key="Vcs.Push.Dialog.v2" timestamp="1587018074277">
+      <screen x="0" y="23" width="1280" height="725" />
     </state>
     <state x="234" y="105" key="Vcs.Push.Dialog.v2/0.23.1280.722@0.23.1280.722" timestamp="1586696497836" />
     <state x="234" y="105" key="Vcs.Push.Dialog.v2/0.23.1280.724@0.23.1280.724" timestamp="1586541298422" />
+    <state x="234" y="105" key="Vcs.Push.Dialog.v2/0.23.1280.725@0.23.1280.725" timestamp="1587018074277" />
     <state x="554" y="126" width="703" height="524" key="find.popup" timestamp="1587016146366">
       <screen x="0" y="23" width="1280" height="730" />
     </state>
